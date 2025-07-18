@@ -1,13 +1,9 @@
-<p align="center">
-  <img src="https://your-banner-image-link.com" alt="Bhavesh Kalluru Banner" width="100%" />
-</p>
-
 <h1 align="center">Hey, I'm Bhavesh Kalluru 👋</h1>
 
 <p align="center">
   Passionate about building smart, scalable, and human-like AI systems. 
   <br/>
-  <strong>AI | GenAI | ML | DL | NLP | Automation | Full Stack</strong>
+  <strong>AI Engineer | GenAI Engineer | ML Engineer</strong>
 </p>
 
 ---
@@ -25,6 +21,10 @@
 ![CNN](https://img.shields.io/badge/-CNN-0044CC?style=for-the-badge)
 ![Zapier](https://img.shields.io/badge/-Zapier-FF4A00?style=for-the-badge&logo=zapier)
 ![Make](https://img.shields.io/badge/-Make-0081C6?style=for-the-badge&logo=make)
+![OpenAI API](https://img.shields.io/badge/-OpenAI%20API-412991?style=for-the-badge&logo=openai)
+![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=for-the-badge&logo=fastapi)
+![HuggingFace](https://img.shields.io/badge/-HuggingFace-FCC72B?style=for-the-badge&logo=huggingface)
+![Gemini](https://img.shields.io/badge/-Gemini-4285F4?style=for-the-badge&logo=google)
 
 ---
 
@@ -40,12 +40,17 @@
 ### 🐍 Watch My Contributions Get Eaten by a Snake!
 
 <p align="center">
-  <img src="https://github.com/bhavesh-kalluru/snk/raw/output/github-contribution-grid-snake.svg?color_snake=#00FFFF&color_dots=#9D00FF,#6A00FF,#00FFFF,#00CED1,#00FA9A" />
+  <img src="https://github.com/bhavesh-kalluru/snk/raw/output/github-contribution-grid-snake.svg?color_snake=#00FF00&color_dots=#d0e7ff,#b3d1ff,#66b2ff,#3399ff,#007acc" />
+</p>
+
+<p align="center" style="font-size: 20px;">
+  <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" width="40" alt="bouncing toy" />
 </p>
 
 ---
 
 ### 📫 Let's Connect
+
 - 💼 [LinkedIn](https://linkedin.com/in/bhavesh-kalluru)
 - 💻 [GitHub](https://github.com/bhavesh-kalluru)
 - ✉️ Reach out for collaboration or consulting!
