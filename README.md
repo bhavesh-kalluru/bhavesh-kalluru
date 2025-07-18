@@ -8,6 +8,12 @@
 
 ---
 
+<marquee behavior="scroll" direction="left" scrollamount="6">
+🔥 Let's build the future of AI together — Collaborate • Create • Automate • Innovate 🔥
+</marquee>
+
+---
+
 ### ⚙️ Tech Stack & Tools
 
 <p align="center">
@@ -33,13 +39,13 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=bhavesh-kalluru&show_icons=true&theme=tokyonight" width="48%"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=bhavesh-kalluru&theme=tokyonight" width="48%"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=bhavesh-kalluru&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&border_radius=10" width="420"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=bhavesh-kalluru&theme=tokyonight&hide_border=true&border_radius=10" width="420"/>
 </p>
 
 ---
 
-### 🐍 Contributions Meet Creativity
+### 🐍 Watch My Contributions Get Eaten by a Snake!
 
 <p align="center">
   <img src="https://github.com/bhavesh-kalluru/snk/raw/output/github-contribution-grid-snake.svg?color_snake=#00FF00&color_dots=#d0e7ff,#b3d1ff,#66b2ff,#3399ff,#007acc" />
