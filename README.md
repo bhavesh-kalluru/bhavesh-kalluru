@@ -15,7 +15,6 @@
 ### 🧠 Technologies I Work With
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![AI](https://img.shields.io/badge/-Artificial%20Intelligence-181717?style=for-the-badge&logo=openai)
 ![GenAI](https://img.shields.io/badge/-Generative%20AI-000000?style=for-the-badge&logo=cloudflare)
 ![Machine Learning](https://img.shields.io/badge/-Machine%20Learning-10274A?style=for-the-badge&logo=scikitlearn)
