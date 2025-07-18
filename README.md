@@ -40,7 +40,7 @@
 ### 🐍 Watch My Contributions Get Eaten by a Snake!
 
 <p align="center">
-  <img src="https://github.com/bhavesh-kalluru/snk/raw/output/github-contribution-grid-snake.svg?color_snake=#00FF00&color_dots=#d0e7ff,#b3d1ff,#66b2ff,#3399ff,#007acc" />
+  <img src="https://github.com/bhavesh-kalluru/snk/raw/output/github-contribution-grid-snake.svg?color_snake=#0077B6&color_dots=#d0e7ff,#b3d1ff,#66b2ff,#3399ff,#007acc" />
 </p>
 
 <p align="center" style="font-size: 20px;">
