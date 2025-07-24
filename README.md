@@ -73,6 +73,10 @@
   🚀 Open to collaboration, projects, or GenAI consultations. Let’s build something incredible together!
 </p>
 
-## 🗓️ GitHub Calendar
-https://github-readme-activity-graph.vercel.app/graph?username=bhavesh-kalluru&theme=react-dark)
+## 🗓️ GitHub Contribution Graph
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=bhavesh-kalluru&theme=react-dark" alt="GitHub Contribution Graph" />
+</div>
+
 
