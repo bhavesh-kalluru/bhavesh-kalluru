@@ -1,0 +1,42 @@
+name: 📚 Update Word + Tech Term of the Day
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # Runs daily at midnight UTC
+  workflow_dispatch:     # Manual run option
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Install jq
+        run: sudo apt-get install jq
+
+      - name: Get Random Word & Definition
+        run: |
+          word=$(curl -s https://random-word-api.herokuapp.com/word | jq -r '.[0]')
+          def=$(curl -s "https://api.dictionaryapi.dev/api/v2/entries/en/$word" | jq -r '.[0].meanings[0].definitions[0].definition')
+          echo "WORD=✨ *\"$word\"* — $def" >> $GITHUB_ENV
+
+      - name: Get Random Tech Term from JSON
+        run: |
+          tech=$(jq -c '.[]' terms.json | shuf -n 1)
+          term=$(echo "$tech" | jq -r '.term')
+          definition=$(echo "$tech" | jq -r '.definition')
+          echo "TECH_TERM=💡 **$term** — $definition" >> $GITHUB_ENV
+
+      - name: Update README
+        run: |
+          sed -i '/<!--START_SECTION:word-->/, /<!--END_SECTION:word-->/c\<!--START_SECTION:word-->\n'"$WORD"'\n<!--END_SECTION:word-->' README.md
+          sed -i '/<!--START_SECTION:term-->/, /<!--END_SECTION:term-->/c\<!--START_SECTION:term-->\n'"$TECH_TERM"'\n<!--END_SECTION:term-->' README.md
+
+      - name: Commit & Push
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git commit -m "📚 Update Word and Tech Term of the Day"
+          git push
