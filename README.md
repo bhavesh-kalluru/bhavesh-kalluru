@@ -55,6 +55,32 @@
 
 ---
 
+## 📚 Word of the Day
+
+<div align="center">
+  
+<!--START_SECTION:word-->
+✨ *"serendipity"* — the occurrence of events by chance in a happy or beneficial way.
+<!--END_SECTION:word-->
+
+</div>
+
+## 🗓️ GitHub Contribution Graph
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=bhavesh-kalluru&theme=react-dark" alt="GitHub Contribution Graph" />
+</div>
+
+
+## 💬 Quote of the Day
+<div align="center">
+<!--START_SECTION:quote-->
+🌟 "The best way to predict the future is to invent it." – Alan Kay
+<!--END_SECTION:quote-->
+
+</div>
+
+
 ### 🤝 Let's Connect
 
 <p align="center">
@@ -73,20 +99,7 @@
   🚀 Open to collaboration, projects, or GenAI consultations. Let’s build something incredible together!
 </p>
 
-## 🗓️ GitHub Contribution Graph
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=bhavesh-kalluru&theme=react-dark" alt="GitHub Contribution Graph" />
-</div>
-
-
-## 💬 Quote of the Day
-<div align="center">
-<!--START_SECTION:quote-->
-🌟 "The best way to predict the future is to invent it." – Alan Kay
-<!--END_SECTION:quote-->
-
-</div>
 
 
 
