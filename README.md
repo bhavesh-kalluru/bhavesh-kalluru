@@ -72,3 +72,8 @@
 <p align="center">
   🚀 Open to collaboration, projects, or GenAI consultations. Let’s build something incredible together!
 </p>
+
+## 🗓️ GitHub Calendar
+
+[![Bhavesh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=kallurubhavesh341&theme=react-dark)](https://github.com/Ashutosh00710/github-readme-activity-graph)
+
