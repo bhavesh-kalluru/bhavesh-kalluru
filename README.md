@@ -80,6 +80,17 @@
 
 </div>
 
+## 🧠 Tech Term of the Day
+
+<div align="center">
+
+<!--START_SECTION:term-->
+💡 **Prompt Engineering** — Crafting inputs to get desired results from a language model.
+<!--END_SECTION:term-->
+
+</div>
+
+
 
 ### 🤝 Let's Connect
 
