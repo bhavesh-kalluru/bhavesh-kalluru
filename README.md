@@ -80,3 +80,13 @@
 </div>
 
 
+## 💬 Quote of the Day
+<div align="center">
+<!--START_SECTION:quote-->
+🌟 "The best way to predict the future is to invent it." – Alan Kay
+<!--END_SECTION:quote-->
+
+</div>
+
+
+
