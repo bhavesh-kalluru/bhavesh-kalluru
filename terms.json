@@ -1,0 +1,10 @@
+[
+  {
+    "term": "Prompt Engineering",
+    "definition": "Crafting inputs to get desired results from a language model."
+  },
+  {
+    "term": "Overfitting",
+    "definition": "A model that performs well on training data but poorly on unseen data."
+  }
+]
