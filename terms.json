@@ -1,10 +1,5 @@
 [
-  {
-    "term": "Prompt Engineering",
-    "definition": "Crafting inputs to get desired results from a language model."
-  },
-  {
-    "term": "Overfitting",
-    "definition": "A model that performs well on training data but poorly on unseen data."
-  }
+  { "term": "Vector Search", "definition": "A technique to find similar items by comparing their embeddings." },
+  { "term": "Prompt Chaining", "definition": "The practice of linking multiple LLM prompts together to solve complex tasks." },
+  …etc…
 ]
