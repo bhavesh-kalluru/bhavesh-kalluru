@@ -55,39 +55,10 @@
 
 ---
 
-## 📚 Word of the Day
-
-<div align="center">
-  
-<!--START_SECTION:word-->
-✨ *"serendipity"* — the occurrence of events by chance in a happy or beneficial way.
-<!--END_SECTION:word-->
-
-</div>
-
 ## 🗓️ GitHub Contribution Graph
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=bhavesh-kalluru&theme=react-dark" alt="GitHub Contribution Graph" />
-</div>
-
-
-## 💬 Quote of the Day
-<div align="center">
-<!--START_SECTION:quote-->
-🌟 "The best way to predict the future is to invent it." – Alan Kay
-<!--END_SECTION:quote-->
-
-</div>
-
-## 🧠 Tech Term of the Day
-
-<div align="center">
-
-<!--START_SECTION:term-->
-💡 **Prompt Engineering** — Crafting inputs to get desired results from a language model.
-<!--END_SECTION:term-->
-
 </div>
 
 ### 🤝 Let's Connect
