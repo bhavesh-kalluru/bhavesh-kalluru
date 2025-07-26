@@ -79,6 +79,18 @@
   🚀 Open to collaboration, projects, or GenAI consultations. Let’s build something incredible together!
 </p>
 
+## Word of the Day
+
+<!--START_SECTION:word-->
+Loading word…
+<!--END_SECTION:word-->
+
+## Tech Term of the Day
+
+<!--START_SECTION:tech-->
+Loading tech term…
+<!--END_SECTION:tech-->
+
 
 
 
