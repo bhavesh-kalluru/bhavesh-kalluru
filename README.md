@@ -129,15 +129,6 @@
 
 > “The future belongs to those who believe in the beauty of their dreams.” — Eleanor Roosevelt
 
-[![Header Image](https://link-to-your-header-image.svg)](https://your-portfolio.com)
-
-# Hi, I'm Bhavesh 👋
-**AI / GenAI Engineer @YourCompany**  
-Building cutting-edge AI systems to merge creativity with intelligence.
-
-- 🌐 Based in Chicago, IL
-- 🛠 Currently working on a GenAI-powered document assistant
-- 🌱 Learning about multimodal transformers & vector search
 
 ## 🌈 Behind the Scenes
 
