@@ -6,13 +6,13 @@
   <strong>🧠 AI Engineer | 🤖 GenAI Engineer | 📊 ML Engineer</strong>
 </p>
 
----
+<hr style="border: 1px solid #ccc; margin: 30px 0;" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=500&color=FF6F61&center=true&vCenter=true&width=1000&lines=🔥+Let's+build+the+future+of+AI+together+—+Collaborate+•+Create+•+Automate+•+Innovate+🔥" alt="Typing Animation"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=500&color=FF6F61&center=true&vCenter=true&width=1000&lines=🔥+Let's+build+the+future+of+AI+together+—+Collaborate+•+Create+•+Automate+•+Innovate+🔥" alt="Typing Animation"/>
 </p>
 
----
+<hr style="border: 1px solid #ccc; margin: 30px 0;" />
 
 ### ⚙️ Tech Stack & Tools
 
@@ -34,7 +34,7 @@
   <img src="https://img.shields.io/badge/-Gemini-4285F4?style=for-the-badge&logo=google"/>
 </p>
 
----
+<hr style="border: 1px solid #ccc; margin: 30px 0;" />
 
 ### 📊 GitHub Stats
 
