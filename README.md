@@ -95,10 +95,9 @@
       <p>Brief one-liner about what it does and why it’s cool.</p>
     </td>
     <td width="50%">
-      <a href="https://github.com/bhavesh-kalluru/another-project">
-        <img src="https://github.com/bhavesh-kalluru/another-project/raw/main/screenshot.png" alt="project screenshot" width="100%" />
+      <a href="https://github.com/bhavesh-kalluru/AI-Car-Maintenance-Advisor">
         <br />
-        <strong>Another Project 💡</strong>
+        <strong>AI Car Maintainance App 💡</strong>
       </a>
       <p>Highlight the unique tech, features, or impact here.</p>
     </td>
