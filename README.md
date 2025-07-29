@@ -105,4 +105,29 @@
   </tr>
 </table>
 
+## ⏳ Currently Building
+
+- 🧠 A local file-aware GenAI chatbot with OpenAI + FAISS + FastAPI
+- 🌐 My personal portfolio site with Next.js 15 & Turbopack
+- 🤝 Collaborating on a Generative Workflow Automation tool (Zapier + OpenAI)
+
+## 🎯 2025 Goals
+
+- ✅ Build 5 GenAI-powered tools end-to-end
+- 📝 Write 12 AI engineering blogs
+- 🎙️ Speak at 2 AI or developer meetups
+- 🌱 Contribute to open-source AI projects
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=bhavesh-kalluru&theme=dracula&row=1&no-bg=true"/>
+</p>
+
+![Visitors](https://komarev.com/ghpvc/?username=bhavesh-kalluru&style=flat-square)
+
+
+## 🎯 Favorite Quote
+
+> “The future belongs to those who believe in the beauty of their dreams.” — Eleanor Roosevelt
+
+
 
