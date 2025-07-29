@@ -90,7 +90,7 @@
       <a href="https://github.com/bhavesh-kalluru/FileBot-AI-Powered-File-Automation-Engine">
         <img src="https://github.com/bhavesh-kalluru/project-name/raw/main/demo.gif" alt="project demo" width="100%" />
         <br />
-        <strong>Project Name 🚀</strong>
+        <strong>File Bot 🚀</strong>
       </a>
       <p>Brief one-liner about what it does and why it’s cool.</p>
     </td>
