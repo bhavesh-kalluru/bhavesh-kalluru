@@ -81,7 +81,7 @@
 </p>
 
 ---
-
+---------------------------------------------------------------------------------------------------------------------------
 ## 🚀 Featured Projects
 
 <table>
@@ -128,6 +128,29 @@
 ## 🎯 Favorite Quote
 
 > “The future belongs to those who believe in the beauty of their dreams.” — Eleanor Roosevelt
+
+[![Header Image](https://link-to-your-header-image.svg)](https://your-portfolio.com)
+
+# Hi, I'm Bhavesh 👋
+**AI / GenAI Engineer @YourCompany**  
+Building cutting-edge AI systems to merge creativity with intelligence.
+
+- 🌐 Based in Chicago, IL
+- 🛠 Currently working on a GenAI-powered document assistant
+- 🌱 Learning about multimodal transformers & vector search
+
+## 🔧 GitHub Stats & Activity
+
+![Python Stats](https://github-readme-stats.vercel.app/api/top-langs?username=bhavesh‑kalluru&layout=compact)
+[![Bhav’s GitHub Stats](https://github-readme-stats.vercel.app/api?username=bhavesh-kalluru)](https://github.com/bhavesh-kalluru)
+<a href="#"><img src="https://komarev.com/ghpvc/?username=bhavesh‑kalluru&style=flat-square" alt="Visitors"/></a>
+
+## 🌈 Behind the Scenes
+
+- ⚡ Favorite Quote: “Stay hungry. Stay foolish.” — Steve Jobs  
+- 🎮 Hobbies: Guitar, Sci-fi novels, escape rooms  
+- 📚 Currently Reading: *Deep Learning with Python*
+
 
 
 
