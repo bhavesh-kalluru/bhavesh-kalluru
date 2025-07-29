@@ -87,7 +87,7 @@
 <table>
   <tr>
     <td width="50%">
-      <a href="https://github.com/bhavesh-kalluru/project-name">
+      <a href="https://github.com/bhavesh-kalluru/FileBot-AI-Powered-File-Automation-Engine">
         <img src="https://github.com/bhavesh-kalluru/project-name/raw/main/demo.gif" alt="project demo" width="100%" />
         <br />
         <strong>Project Name 🚀</strong>
