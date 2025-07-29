@@ -40,7 +40,7 @@
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=bhavesh-kalluru&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&border_radius=10" width="420"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=bhavesh-kalluru&theme=tokyonight&hide_border=true&border_radius=10" width="420"/>
+ <a href="https://git.io/streak-stats"><img src="https://git-hub-streak-stats.vercel.app?user=" alt="GitHub Streak" /></a>
 </p>
 
 ---
