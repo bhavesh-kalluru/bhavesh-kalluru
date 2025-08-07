@@ -1,17 +1,24 @@
+<!-- Gen AI & AI-Engineer Badges -->
+[![RAG](https://img.shields.io/badge/RAG-blueviolet?style=flat)](#)
+[![LangChain](https://img.shields.io/badge/LangChain-ff69b4?style=flat)](#)
+[![FAISS](https://img.shields.io/badge/FAISS-00599C?style=flat)](#)
+[![Chroma](https://img.shields.io/badge/Chroma-8A2BE2?style=flat)](#)
+[![Pinecone](https://img.shields.io/badge/Pinecone-4A90E2?style=flat)](#)
+[![LoRA](https://img.shields.io/badge/LoRA-orange?style=flat)](#)
+[![Quantization](https://img.shields.io/badge/Quantization-red?style=flat)](#)
+[![Diffusion](https://img.shields.io/badge/Diffusion-0d1117?logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3Qgd2lkdGg9IjEyIiBoZWlnaHQ9IjEyIiByeD0iNiIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==)](#)
+[![Agents](https://img.shields.io/badge/AI%20Agents-9cf?style=flat)](#)
+[![Toolformer](https://img.shields.io/badge/Toolformer-7957d5?style=flat)](#)
+[![Chain-of-Thought](https://img.shields.io/badge/Chain--of--Thought-0066cc?style=flat)](#)
+[![OpenAI](https://img.shields.io/badge/OpenAI-000000?style=flat&logo=openai&logoColor=white)](https://openai.com/)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FCC624?style=flat&logo=huggingface&logoColor=black)](https://huggingface.co/)
+[![TensorRT](https://img.shields.io/badge/TensorRT-76B900?style=flat)](#)
+[![Docker](https://img.shields.io/badge/Docker-2496ed?style=flat&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Kubernetes](https://img.shields.io/badge/K8s-326ce5?style=flat&logo=kubernetes&logoColor=white)](https://kubernetes.io/)
+[![MLOps](https://img.shields.io/badge/MLOps-success?style=flat)](#)
+[![LLMOps](https://img.shields.io/badge/LLMOps-critical?style=flat)](#)
+[![CI/CD](https://img.shields.io/badge/CI%2FCD-blue?style=flat)](#)
 
-<!-- Tech-stack badges -->
-[![Machine Learning](https://img.shields.io/badge/Machine%20Learning-blueviolet)](#)
-[![Deep Learning](https://img.shields.io/badge/Deep%20Learning-orange)](#)
-[![NLP](https://img.shields.io/badge/NLP-green)](#)
-[![Gen AI](https://img.shields.io/badge/Gen%20AI-9cf)](#)
-[![LLM](https://img.shields.io/badge/LLM-critical)](#)
-[![AI](https://img.shields.io/badge/AI-success)](#)
-[![Transformers](https://img.shields.io/badge/Transformers-lightgrey)](#)
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00)](#)
-[![NumPy](https://img.shields.io/badge/NumPy-013243)](#)
-[![Pandas](https://img.shields.io/badge/Pandas-150458)](#)
-[![Power BI](https://img.shields.io/badge/Power%20BI-F2C811)](#)
-[![SQL](https://img.shields.io/badge/SQL-blue)](#)
 
 
 <h1 align="center">Hey, I'm Bhavesh Kalluru 👋</h1>
