@@ -1,3 +1,9 @@
+<!-- Badges -->
+[![CI](https://img.shields.io/github/actions/workflow/status/bhavesh-kalluru/genai-sentiment-dashboard/ci.yml?branch=main)](https://github.com/bhavesh-kalluru/genai-sentiment-dashboard/actions)
+[![Python Version](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/streamlit-1.0%2B-orange)](https://streamlit.io/)
+[![License](https://img.shields.io/github/license/bhavesh-kalluru/genai-sentiment-dashboard)](LICENSE)
+
 <h1 align="center">Hey, I'm Bhavesh Kalluru 👋</h1>
 
 <p align="center" style="font-size: 1.2rem;">
@@ -12,7 +18,22 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=500&color=FF6F61&center=true&vCenter=true&width=1000&lines=🔥+Let's+build+the+future+of+AI+together+—+Collaborate+•+Create+•+Automate+•🔥" alt="Typing Animation"/>
 </p>
 
-<hr style="border: 1px solid #ccc; margin: 30px 0;" />
+---
+
+## 🚀 Table of Contents
+
+1. [⚙️ Tech Stack & Tools](#️-tech-stack--tools)  
+2. [📊 GitHub Stats](#-github-stats)  
+3. [📈 Top Languages](#-top-languages)  
+4. [🗓️ GitHub Contribution Graph](#️-github-contribution-graph)  
+5. [🤝 Let's Connect](#-lets-connect)  
+6. [🚀 Featured Projects](#-featured-projects)  
+7. [⏳ Currently Building](#-currently-building)  
+8. [🎯 2025 Goals](#-2025-goals)  
+9. [🎯 Favorite Quote](#-favorite-quote)  
+10. [🌈 Behind the Scenes](#-behind-the-scenes)
+
+---
 
 ### ⚙️ Tech Stack & Tools
 
@@ -34,7 +55,7 @@
   <img src="https://img.shields.io/badge/-Gemini-4285F4?style=for-the-badge&logo=google"/>
 </p>
 
-<hr style="border: 1px solid #ccc; margin: 30px 0;" />
+---
 
 ### 📊 GitHub Stats
 
@@ -44,17 +65,15 @@
 
 ---
 
-<p align="center">
-  <img src="https://github.com/bhavesh-kalluru/snk/raw/output/github-contribution-grid-snake.svg?color_snake=#00FF00&color_dots=#d0e7ff,#b3d1ff,#66b2ff,#3399ff,#007acc" />
-</p>
+### 📈 Top Languages
 
 <p align="center">
-  <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" width="50" alt="animated bouncing toy" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=bhavesh-kalluru&show_icons=true&theme=tokyonight&layout=compact" alt="Top Languages"/>
 </p>
 
 ---
 
-## 🗓️ GitHub Contribution Graph
+### 🗓️ GitHub Contribution Graph
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=bhavesh-kalluru&theme=react-dark" alt="GitHub Contribution Graph" />
@@ -71,7 +90,7 @@
   <a href="https://github.com/bhavesh-kalluru" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
-  <a href="mailto:youremail@example.com" target="_blank">
+  <a href="mailto:kallurubhavesh341@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
 </p>
@@ -81,8 +100,8 @@
 </p>
 
 ---
----------------------------------------------------------------------------------------------------------------------------
-## 🚀 Featured Projects
+
+### 🚀 Featured Projects
 
 <table>
   <tr>
@@ -104,37 +123,33 @@
   </tr>
 </table>
 
-## ⏳ Currently Building
+---
 
-- 🧠 A local file-aware GenAI chatbot with OpenAI + FAISS + FastAPI
-- 🌐 My personal portfolio site with Next.js 15 & Turbopack
+### ⏳ Currently Building
+
+- 🧠 A local file-aware GenAI chatbot with OpenAI + FAISS + FastAPI  
+- 🌐 My personal portfolio site with Next.js 15 & Turbopack  
 - 🤝 Collaborating on a Generative Workflow Automation tool (Zapier + OpenAI)
 
-## 🎯 2025 Goals
+---
 
-- ✅ Build 5 GenAI-powered tools end-to-end
-- 📝 Write 12 AI engineering blogs
-- 🎙️ Speak at 2 AI or developer meetups
+### 🎯 2025 Goals
+
+- ✅ Build 5 GenAI-powered tools end-to-end  
+- 📝 Write 12 AI engineering blogs  
+- 🎙️ Speak at 2 AI or developer meetups  
 - 🌱 Contribute to open-source AI projects
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=bhavesh-kalluru&theme=dracula&row=1&no-bg=true"/>
-</p>
+---
 
-![Visitors](https://komarev.com/ghpvc/?username=bhavesh-kalluru&style=flat-square)
-
-
-## 🎯 Favorite Quote
+### 🎯 Favorite Quote
 
 > “The future belongs to those who believe in the beauty of their dreams.” — Eleanor Roosevelt
 
+---
 
-## 🌈 Behind the Scenes
+### 🌈 Behind the Scenes
 
-- ⚡ Favorite Quote: “Stay hungry. Stay foolish.” — Steve Jobs  
+- ⚡ Favorite Quote: “Stay hungry. Stay foolish.” — Steve Jobs  
 - 🎮 Hobbies: Guitar, Sci-fi novels, escape rooms  
 - 📚 Currently Reading: *Deep Learning with Python*
-
-
-
-
