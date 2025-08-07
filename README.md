@@ -26,12 +26,13 @@
 2. [📊 GitHub Stats](#-github-stats)  
 3. [📈 Top Languages](#-top-languages)  
 4. [🗓️ GitHub Contribution Graph](#️-github-contribution-graph)  
-5. [🤝 Let's Connect](#-lets-connect)  
-6. [🚀 Featured Projects](#-featured-projects)  
-7. [⏳ Currently Building](#-currently-building)  
-8. [🎯 2025 Goals](#-2025-goals)  
-9. [🎯 Favorite Quote](#-favorite-quote)  
-10. [🌈 Behind the Scenes](#-behind-the-scenes)
+5. [🐍 GitHub Snake Animation](#-github-snake-animation)  
+6. [🤝 Let's Connect](#-lets-connect)  
+7. [🚀 Featured Projects](#-featured-projects)  
+8. [⏳ Currently Building](#-currently-building)  
+9. [🎯 2025 Goals](#-2025-goals)  
+10. [🎯 Favorite Quote](#-favorite-quote)  
+11. [🌈 Behind the Scenes](#-behind-the-scenes)
 
 ---
 
@@ -78,6 +79,14 @@
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=bhavesh-kalluru&theme=react-dark" alt="GitHub Contribution Graph" />
 </div>
+
+---
+
+### 🐍 GitHub Snake Animation
+
+<p align="center">
+  <img src="https://github.com/bhavesh-kalluru/snk/raw/output/github-contribution-grid-snake.svg?color_snake=#00FF00&color_dots=#d0e7ff,#b3d1ff,#66b2ff,#3399ff,#007acc" alt="GitHub Contribution Snake" />
+</p>
 
 ---
 
