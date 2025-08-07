@@ -158,5 +158,5 @@
 ### 🌈 Behind the Scenes
 
 - ⚡ Favorite Quote: “Stay hungry. Stay foolish.” — Steve Jobs  
-- 🎮 Hobbies: Guitar, Sci-fi novels, escape rooms  
-- 📚 Currently Reading: *Deep Learning with Python*
+- 🎮 Hobbies: New technology enthusisam, Trucking, Volley ball lover.
+- 📚 Currently Reading: *Gen ai with Pyhton*
