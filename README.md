@@ -15,7 +15,7 @@
 <hr style="border: 1px solid #ccc; margin: 30px 0;" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=500&color=FF6F61&center=true&vCenter=true&width=1000&lines=🔥+build+the+future+of+AI+together+—+Collaborate+•+Create+•+Automate+•🔥" alt="Typing Animation"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=500&color=FF6F61&center=true&vCenter=true&width=1000&lines=🔥+build+the+future+of+AI+together+—+Collaborate+•+Create+•+Automate+🔥" alt="Typing Animation"/>
 </p>
 
 ---
