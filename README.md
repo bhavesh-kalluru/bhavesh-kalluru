@@ -1,8 +1,18 @@
-<!-- Badges -->
-[![CI](https://img.shields.io/github/actions/workflow/status/bhavesh-kalluru/genai-sentiment-dashboard/ci.yml?branch=main)](https://github.com/bhavesh-kalluru/genai-sentiment-dashboard/actions)
-[![Python Version](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/)
-[![Streamlit](https://img.shields.io/badge/streamlit-1.0%2B-orange)](https://streamlit.io/)
-[![License](https://img.shields.io/github/license/bhavesh-kalluru/genai-sentiment-dashboard)](LICENSE)
+
+<!-- Tech-stack badges -->
+[![Machine Learning](https://img.shields.io/badge/Machine%20Learning-blueviolet)](#)
+[![Deep Learning](https://img.shields.io/badge/Deep%20Learning-orange)](#)
+[![NLP](https://img.shields.io/badge/NLP-green)](#)
+[![Gen AI](https://img.shields.io/badge/Gen%20AI-9cf)](#)
+[![LLM](https://img.shields.io/badge/LLM-critical)](#)
+[![AI](https://img.shields.io/badge/AI-success)](#)
+[![Transformers](https://img.shields.io/badge/Transformers-lightgrey)](#)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00)](#)
+[![NumPy](https://img.shields.io/badge/NumPy-013243)](#)
+[![Pandas](https://img.shields.io/badge/Pandas-150458)](#)
+[![Power BI](https://img.shields.io/badge/Power%20BI-F2C811)](#)
+[![SQL](https://img.shields.io/badge/SQL-blue)](#)
+
 
 <h1 align="center">Hey, I'm Bhavesh Kalluru 👋</h1>
 
