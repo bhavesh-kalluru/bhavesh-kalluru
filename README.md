@@ -183,3 +183,12 @@
 - ⚡ Favorite Quote: “Stay hungry. Stay foolish.” — Steve Jobs  
 - 🎮 Hobbies: New technology enthusisam, Trucking, Volley ball lover.
 - 📚 Currently Reading: *Gen ai with Pyhton*
+
+## Word of the Day
+<!-- DAILY:WORD -->
+<!-- END:WORD -->
+
+## Tech Term of the Day
+<!-- DAILY:TECH -->
+<!-- END:TECH -->
+
