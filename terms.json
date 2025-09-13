@@ -1,8 +1,10 @@
 {
   "words": [
-    {"term": "Serendipity", "meaning": "Finding something good without looking for it"}
+    {"term":"Serendipity","meaning":"Finding something good without looking for it"},
+    {"term":"Ebullience","meaning":"Cheerful, energetic enthusiasm"}
   ],
   "tech": [
-    {"term": "RAG", "meaning": "Retrieval-Augmented Generation: fetch facts, then generate"}
+    {"term":"RAG","meaning":"Retrieval-Augmented Generation"},
+    {"term":"PEFT","meaning":"Parameter-Efficient Fine-Tuning"}
   ]
 }
