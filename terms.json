@@ -1,5 +1,8 @@
-[
-  { "term": "Vector Search", "definition": "A technique to find similar items by comparing their embeddings." },
-  { "term": "Prompt Chaining", "definition": "The practice of linking multiple LLM prompts together to solve complex tasks." },
-  …etc…
-]
+{
+  "words": [
+    {"term": "Serendipity", "meaning": "Finding something good without looking for it"}
+  ],
+  "tech": [
+    {"term": "RAG", "meaning": "Retrieval-Augmented Generation: fetch facts, then generate"}
+  ]
+}
