@@ -186,9 +186,11 @@
 
 ## Word of the Day
 <!-- DAILY:WORD -->
+**Serendipity** — Finding something good without looking for it
 <!-- END:WORD -->
 
 ## Tech Term of the Day
 <!-- DAILY:TECH -->
+**RAG** — Retrieval-Augmented Generation: fetch facts, then generate
 <!-- END:TECH -->
 
