@@ -22,56 +22,90 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Generate today's content
+      - name: Generate today's content (Word, Tech, Quote)
         shell: bash
         run: |
           python - <<'PY'
-          import datetime, json, random, re
+          import datetime as dt, json, re
           from pathlib import Path
 
           root = Path(".").resolve()
           readme = root / "README.md"
-          pool_file = root / "terms.json"  # uses your existing file at repo root
+          terms_file = root / "terms.json"    # optional: words + tech live here
+          quotes_file = root / "quotes.json"  # optional: quotes can live here
 
-          # Load data (fallback included so job never fails if file missing)
-          if pool_file.exists():
-              data = json.loads(pool_file.read_text())
-          else:
-              data = {
-                "words": [
+          # ---------- helpers ----------
+          def rotate(items, offset=0):
+              if not items:
+                  return None
+              # deterministic day-based rotation (cycles through the whole list)
+              idx = (dt.date.today().toordinal() + offset) % len(items)
+              return items[idx]
+
+          def upsert_block(text, start_tag, end_tag, body):
+              pattern = re.compile(rf"(?s){re.escape(start_tag)}.*?{re.escape(end_tag)}")
+              replacement = f"{start_tag}\n{body}\n{end_tag}"
+              if pattern.search(text):
+                  return pattern.sub(replacement, text)
+              # If markers missing, append at end
+              return text.rstrip() + f"\n\n{replacement}\n"
+
+          # ---------- load pools (with safe fallbacks) ----------
+          words, techs, quotes = [], [], []
+
+          if terms_file.exists():
+              try:
+                  data = json.loads(terms_file.read_text(encoding="utf-8"))
+                  words = data.get("words", [])
+                  techs = data.get("tech", [])
+              except Exception:
+                  pass
+
+          if quotes_file.exists():
+              try:
+                  quotes = json.loads(quotes_file.read_text(encoding="utf-8"))
+              except Exception:
+                  pass
+
+          if not words:
+              words = [
                   {"term":"Serendipity","meaning":"Finding something good without looking for it"},
-                  {"term":"Ephemeral","meaning":"Lasting for a very short time"},
-                  {"term":"Ebullient","meaning":"Cheerful and full of energy"}
-                ],
-                "tech": [
-                  {"term":"Vector DB","meaning":"Database for vector embeddings & similarity search"},
+                  {"term":"Alacrity","meaning":"Brisk, cheerful readiness"},
+                  {"term":"Tenacity","meaning":"Persistent determination to keep going"},
+              ]
+          if not techs:
+              techs = [
                   {"term":"RAG","meaning":"Retrieval-Augmented Generation: fetch facts, then generate"},
-                  {"term":"Streamlit","meaning":"Python framework for quick data apps"}
-                ]
-              }
+                  {"term":"Vector DB","meaning":"Store embeddings for semantic search/RAG"},
+                  {"term":"PEFT","meaning":"Parameter-Efficient Fine-Tuning for large models"},
+              ]
+          if not quotes:
+              quotes = [
+                  {"text":"Stay hungry. Stay foolish.","author":"Steve Jobs"},
+                  {"text":"Make it work, make it right, make it fast.","author":"Kent Beck"},
+                  {"text":"It always seems impossible until it’s done.","author":"Nelson Mandela"},
+                  {"text":"The secret of getting ahead is getting started.","author":"Mark Twain"},
+                  {"text":"Whether you think you can or you can’t, you’re right.","author":"Henry Ford"},
+              ]
 
-          random.seed(datetime.date.today().toordinal())
-          word = random.choice(data.get("words", [])) if data.get("words") else {"term":"Hello","meaning":"World"}
-          tech = random.choice(data.get("tech", [])) if data.get("tech") else {"term":"AI","meaning":"Makes tools smarter"}
+          # pick today’s entries (offsets avoid same index if lists share length)
+          w = rotate(words, offset=0)   or {"term":"Hello","meaning":"World"}
+          t = rotate(techs,  offset=7)  or {"term":"AI","meaning":"Makes tools smarter"}
+          q = rotate(quotes, offset=13) or {"text":"Keep going.","author":"Unknown"}
+
+          word_block = f"**{w['term']}** — {w['meaning']}"
+          tech_block = f"**{t['term']}** — {t['meaning']}"
+          quote_line = f'> “{q["text"]}” — {q.get("author","")}'.rstrip(" — ")
 
           readme.touch(exist_ok=True)
-          text = readme.read_text()
+          text = readme.read_text(encoding="utf-8")
 
-          def upsert_block(t, start_tag, end_tag, body):
-              if start_tag in t and end_tag in t:
-                  pat = re.compile(rf"(?s){re.escape(start_tag)}.*?{re.escape(end_tag)}")
-                  return pat.sub(f"{start_tag}\n{body}\n{end_tag}", t)
-              else:
-                  return t + f"\n\n{start_tag}\n{body}\n{end_tag}\n"
+          text = upsert_block(text, "<!-- DAILY:WORD -->",  "<!-- END:WORD -->",  word_block)
+          text = upsert_block(text, "<!-- DAILY:TECH -->",  "<!-- END:TECH -->",  tech_block)
+          text = upsert_block(text, "<!-- DAILY:QUOTE -->", "<!-- END:QUOTE -->", quote_line)
 
-          word_block = f"**{word['term']}** — {word['meaning']}"
-          tech_block = f"**{tech['term']}** — {tech['meaning']}"
-
-          text = upsert_block(text, "<!-- DAILY:WORD -->", "<!-- END:WORD -->", word_block)
-          text = upsert_block(text, "<!-- DAILY:TECH -->", "<!-- END:TECH -->", tech_block)
-
-          readme.write_text(text)
-          print("README updated (or unchanged if same).")
+          readme.write_text(text, encoding="utf-8")
+          print("README updated (Word/Tech/Quote).")
           PY
 
       - name: Configure git
