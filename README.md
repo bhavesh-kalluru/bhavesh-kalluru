@@ -1,6 +1,11 @@
 <!-- Gen AI / AI-Engineer -->
 
 <h1 align="center">Hey, I'm Bhavesh Kalluru 👋</h1>
+<p align="center" style="font-size: 1.2rem;">
+  🚀 Passionate about building smart, scalable, and human-like AI systems  
+  <br/>
+  <strong>🧠 AI Engineer | 🤖 GenAI Engineer | 📊 ML Engineer</strong>
+</p>
 
 <!-- Skills: AI/ML/NLP + Python/SQL + BI/Warehouse -->
 [![AI Engineering](https://img.shields.io/badge/AI%20Engineering-1f6feb?style=flat&logo=openai&logoColor=white)](#)
@@ -34,12 +39,6 @@
 [![TorchServe](https://img.shields.io/badge/TorchServe-ee4c2c?style=flat&logo=pytorch&logoColor=white)](#)
 [![Triton](https://img.shields.io/badge/Triton-0033A0?style=flat)](#)
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)](#)
-
-<p align="center" style="font-size: 1.2rem;">
-  🚀 Passionate about building smart, scalable, and human-like AI systems  
-  <br/>
-  <strong>🧠 AI Engineer | 🤖 GenAI Engineer | 📊 ML Engineer</strong>
-</p>
 
 <hr style="border: 1px solid #ccc; margin: 30px 0;" />
 
