@@ -1,42 +1,90 @@
-name: 📚 Update Word + Tech Term of the Day
+name: Update Word + Tech Term of the Day
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Runs daily at midnight UTC
-  workflow_dispatch:     # Manual run option
+    - cron: "0 6 * * *"   # runs 06:00 UTC daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
 
-      - name: Install jq
-        run: sudo apt-get install jq
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
 
-      - name: Get Random Word & Definition
+      - name: Generate today's content
+        shell: bash
         run: |
-          word=$(curl -s https://random-word-api.herokuapp.com/word | jq -r '.[0]')
-          def=$(curl -s "https://api.dictionaryapi.dev/api/v2/entries/en/$word" | jq -r '.[0].meanings[0].definitions[0].definition')
-          echo "WORD=✨ *\"$word\"* — $def" >> $GITHUB_ENV
+          python - <<'PY'
+          import datetime, json, random, re
+          from pathlib import Path
 
-      - name: Get Random Tech Term from JSON
-        run: |
-          tech=$(jq -c '.[]' terms.json | shuf -n 1)
-          term=$(echo "$tech" | jq -r '.term')
-          definition=$(echo "$tech" | jq -r '.definition')
-          echo "TECH_TERM=💡 **$term** — $definition" >> $GITHUB_ENV
+          root = Path(".").resolve()
+          readme = root / "README.md"
+          pool_file = root / "terms.json"  # uses your existing file at repo root
 
-      - name: Update README
-        run: |
-          sed -i '/<!--START_SECTION:word-->/, /<!--END_SECTION:word-->/c\<!--START_SECTION:word-->\n'"$WORD"'\n<!--END_SECTION:word-->' README.md
-          sed -i '/<!--START_SECTION:term-->/, /<!--END_SECTION:term-->/c\<!--START_SECTION:term-->\n'"$TECH_TERM"'\n<!--END_SECTION:term-->' README.md
+          # Load data (fallback included so job never fails if file missing)
+          if pool_file.exists():
+              data = json.loads(pool_file.read_text())
+          else:
+              data = {
+                "words": [
+                  {"term":"Serendipity","meaning":"Finding something good without looking for it"},
+                  {"term":"Ephemeral","meaning":"Lasting for a very short time"},
+                  {"term":"Ebullient","meaning":"Cheerful and full of energy"}
+                ],
+                "tech": [
+                  {"term":"Vector DB","meaning":"Database for vector embeddings & similarity search"},
+                  {"term":"RAG","meaning":"Retrieval-Augmented Generation: fetch facts, then generate"},
+                  {"term":"Streamlit","meaning":"Python framework for quick data apps"}
+                ]
+              }
 
-      - name: Commit & Push
+          random.seed(datetime.date.today().toordinal())
+          word = random.choice(data.get("words", [])) if data.get("words") else {"term":"Hello","meaning":"World"}
+          tech = random.choice(data.get("tech", [])) if data.get("tech") else {"term":"AI","meaning":"Makes tools smarter"}
+
+          readme.touch(exist_ok=True)
+          text = readme.read_text()
+
+          def upsert_block(t, start_tag, end_tag, body):
+              if start_tag in t and end_tag in t:
+                  pat = re.compile(rf"(?s){re.escape(start_tag)}.*?{re.escape(end_tag)}")
+                  return pat.sub(f"{start_tag}\n{body}\n{end_tag}", t)
+              else:
+                  return t + f"\n\n{start_tag}\n{body}\n{end_tag}\n"
+
+          word_block = f"**{word['term']}** — {word['meaning']}"
+          tech_block = f"**{tech['term']}** — {tech['meaning']}"
+
+          text = upsert_block(text, "<!-- DAILY:WORD -->", "<!-- END:WORD -->", word_block)
+          text = upsert_block(text, "<!-- DAILY:TECH -->", "<!-- END:TECH -->", tech_block)
+
+          readme.write_text(text)
+          print("README updated (or unchanged if same).")
+          PY
+
+      - name: Configure git
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add README.md
-          git commit -m "📚 Update Word and Tech Term of the Day"
-          git push
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit & push if changed
+        run: |
+          if git diff --quiet; then
+            echo "No changes to commit."
+          else
+            git add -A
+            git commit -m "chore: daily README update $(date -u +'%Y-%m-%d')"
+            git push
+          fi
