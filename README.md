@@ -195,60 +195,7 @@
 <!-- END:TECH -->
 
 ### 🎯 Favorite Quote
-
 <!-- DAILY:QUOTE -->
 > “The future belongs to those who believe in the beauty of their dreams.” — Eleanor Roosevelt
 <!-- END:QUOTE -->
-
-
-
-
-
-
-
-
-
-
-
-
-name: Daily README Refresh
-
-on:
-  schedule:
-    - cron: "0 13 * * *"   # 13:00 UTC ≈ morning in America/Chicago
-  workflow_dispatch:
-
-permissions:
-  contents: write
-
-jobs:
-  update-readme:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          ref: main
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.x"
-
-      - name: Update README quote
-        run: |
-          python scripts/update_readme.py
-
-      - name: Commit & push if changed
-        run: |
-          if ! git diff --quiet README.md; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add README.md
-            git commit -m "chore: daily quote refresh [skip ci]"
-            git push
-          else
-            echo "No changes to commit."
-          fi
-
 
