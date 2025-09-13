@@ -186,16 +186,16 @@
 
 ## Word of the Day
 <!-- DAILY:WORD -->
-**Serendipity** — Finding something good without looking for it
+**Ebullience** — Cheerful, energetic enthusiasm
 <!-- END:WORD -->
 
 ## Tech Term of the Day
 <!-- DAILY:TECH -->
-**RAG** — Retrieval-Augmented Generation: fetch facts, then generate
+**RAG** — Retrieval-Augmented Generation
 <!-- END:TECH -->
 
 ### 🎯 Favorite Quote
 <!-- DAILY:QUOTE -->
-> “The future belongs to those who believe in the beauty of their dreams.” — Eleanor Roosevelt
+> “Stay hungry. Stay foolish.” — Steve Jobs
 <!-- END:QUOTE -->
 
