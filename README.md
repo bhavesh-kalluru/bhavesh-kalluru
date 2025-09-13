@@ -10,7 +10,6 @@
 [![LangChain](https://img.shields.io/badge/LangChain-2E7D32?style=flat)](#)
 [![Vector Embeddings](https://img.shields.io/badge/Vector%20Embeddings-00599C?style=flat)](#)
 [![FAISS](https://img.shields.io/badge/FAISS-0A66C2?style=flat)](#)
-
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](#)
 [![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)](#)
 [![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)](#)
@@ -18,7 +17,6 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-ee4c2c?style=flat&logo=pytorch&logoColor=white)](#)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)](#)
 [![JAX](https://img.shields.io/badge/JAX-0d47a1?style=flat)](#)
-
 [![SQL](https://img.shields.io/badge/SQL-336791?style=flat)](#)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)](#)
 [![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)](#)
@@ -26,7 +24,6 @@
 [![dbt](https://img.shields.io/badge/dbt-f76819?style=flat&logo=dbt&logoColor=white)](#)
 [![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat&logo=snowflake&logoColor=white)](#)
 [![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=000000)](#)
-
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)](#)
 [![Streamlit](https://img.shields.io/badge/Streamlit-ff4b4b?style=flat&logo=streamlit&logoColor=white)](#)
 [![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white)](#)
