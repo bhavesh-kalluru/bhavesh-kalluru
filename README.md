@@ -1,4 +1,7 @@
 <!-- Gen AI / AI-Engineer -->
+
+<h1 align="center">Hey, I'm Bhavesh Kalluru 👋</h1>
+
 <!-- Skills: AI/ML/NLP + Python/SQL + BI/Warehouse -->
 [![AI Engineering](https://img.shields.io/badge/AI%20Engineering-1f6feb?style=flat&logo=openai&logoColor=white)](#)
 [![LLM Engineering](https://img.shields.io/badge/LLM%20Engineering-663399?style=flat)](#)
@@ -31,10 +34,6 @@
 [![TorchServe](https://img.shields.io/badge/TorchServe-ee4c2c?style=flat&logo=pytorch&logoColor=white)](#)
 [![Triton](https://img.shields.io/badge/Triton-0033A0?style=flat)](#)
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)](#)
-
-
-
-<h1 align="center">Hey, I'm Bhavesh Kalluru 👋</h1>
 
 <p align="center" style="font-size: 1.2rem;">
   🚀 Passionate about building smart, scalable, and human-like AI systems  
