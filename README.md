@@ -185,16 +185,16 @@
 
 ## Word of the Day
 <!-- DAILY:WORD -->
-**Ebullience** — Cheerful, energetic enthusiasm
+**Serendipity** — Finding something good without looking for it
 <!-- END:WORD -->
 
 ## Tech Term of the Day
 <!-- DAILY:TECH -->
-**RAG** — Retrieval-Augmented Generation
+**PEFT** — Parameter-Efficient Fine-Tuning
 <!-- END:TECH -->
 
 ### 🎯 Favorite Quote
 <!-- DAILY:QUOTE -->
-> “Make it work, make it right, make it fast.” — Kent Beck
+> “It always seems impossible until it’s done.” — Nelson Mandela
 <!-- END:QUOTE -->
 
