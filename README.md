@@ -185,16 +185,16 @@
 
 ## Word of the Day
 <!-- DAILY:WORD -->
-**Ebullience** — Cheerful, energetic enthusiasm
+**Serendipity** — Finding something good without looking for it
 <!-- END:WORD -->
 
 ## Tech Term of the Day
 <!-- DAILY:TECH -->
-**RAG** — Retrieval-Augmented Generation
+**PEFT** — Parameter-Efficient Fine-Tuning
 <!-- END:TECH -->
 
 ### 🎯 Favorite Quote
 <!-- DAILY:QUOTE -->
-> “The secret of getting ahead is getting started.” — Mark Twain
+> “Whether you think you can or you can’t, you’re right.” — Henry Ford
 <!-- END:QUOTE -->
 
