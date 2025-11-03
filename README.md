@@ -198,3 +198,9 @@
 > “Make it work, make it right, make it fast.” — Kent Beck
 <!-- END:QUOTE -->
 
+### UFO IMAGE
+<p align="center">
+  <img src="./ufo-buddy-name.svg" width="800" height="200" alt="UFO projecting Bhavesh" />
+</p>
+
+
