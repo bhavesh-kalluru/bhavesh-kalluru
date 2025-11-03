@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="200" viewBox="0 0 600 200" role="img" aria-labelledby="title desc">
+  <title id="title">UFO Buddy logo</title>
+  <desc id="desc">A simple UFO illustration with the text "UFO Buddy".</desc>
+
+  <defs>
+    <linearGradient id="ufoBodyGrad" x1="0" x2="1">
+      <stop offset="0" stop-color="#8fd3ff"/>
+      <stop offset="1" stop-color="#6bb7ff"/>
+    </linearGradient>
+    <linearGradient id="beamGrad" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff59d" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffd54f" stop-opacity="0.15"/>
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- background stars -->
+  <g fill="#ffffff" fill-opacity="0.9">
+    <circle cx="30" cy="30" r="1.8" fill="#fff"/>
+    <circle cx="78" cy="18" r="1.2" fill="#fff"/>
+    <circle cx="120" cy="40" r="1.0" fill="#fff" opacity="0.9"/>
+    <circle cx="200" cy="20" r="1.4" fill="#fff" opacity="0.85"/>
+  </g>
+
+  <!-- beam -->
+  <g transform="translate(140,38)">
+    <polygon points="0,110 42,24 116,24 158,110" fill="url(#beamGrad)" />
+  </g>
+
+  <!-- UFO body -->
+  <g transform="translate(120,18)">
+    <!-- lower hull -->
+    <ellipse cx="120" cy="56" rx="92" ry="28" fill="url(#ufoBodyGrad)" filter="url(#shadow)"/>
+    <!-- top dome -->
+    <ellipse cx="120" cy="34" rx="44" ry="24" fill="#d8f1ff" stroke="#b6e4ff" stroke-width="2"/>
+    <!-- rim -->
+    <ellipse cx="120" cy="56" rx="80" ry="14" fill="#1f2937" fill-opacity="0.12"/>
+    <!-- lights -->
+    <g transform="translate(28,46)">
+      <circle cx="12" cy="6" r="6" fill="#ffd700" />
+      <circle cx="48" cy="6" r="6" fill="#ff6b6b" />
+      <circle cx="84" cy="6" r="6" fill="#7cffb2" />
+    </g>
+    <!-- dome highlight -->
+    <path d="M96 28 C108 10, 150 12, 164 30" fill="none" stroke="#ffffff" stroke-opacity="0.6" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Text: UFO Buddy -->
+  <g transform="translate(300,120)" font-family="Inter, Arial, Helvetica, sans-serif" font-weight="700">
+    <defs>
+      <linearGradient id="textGrad" x1="0" x2="1">
+        <stop offset="0" stop-color="#6a11cb"/>
+        <stop offset="1" stop-color="#2575fc"/>
+      </linearGradient>
+    </defs>
+
+    <text x="0" y="0" font-size="48" fill="url(#textGrad)" style="letter-spacing:1px">UFO</text>
+    <text x="0" y="52" font-size="48" fill="#111827" fill-opacity="0.85" style="letter-spacing:1px">Buddy</text>
+  </g>
+
+  <!-- optional ground shadow -->
+  <ellipse cx="170" cy="142" rx="78" ry="10" fill="#000" fill-opacity="0.08"/>
+</svg>
