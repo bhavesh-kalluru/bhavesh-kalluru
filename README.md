@@ -58,7 +58,7 @@
 6. [🤝 Let's Connect](#-lets-connect)  
 7. [🚀 Featured Projects](#-featured-projects)  
 8. [⏳ Currently Building](#-currently-building)  
-9. [🎯 2025 Goals](#-2025-goals)  
+9. [🎯 2026 Goals](#-2026-goals)  
 10. [🎯 Favorite Quote](#-favorite-quote)  
 11. [🌈 Behind the Scenes](#-behind-the-scenes)
 
@@ -168,11 +168,11 @@
 
 ---
 
-### 🎯 2025 Goals
+### 🎯 2026 Goals
 
 - ✅ Build 5 GenAI-powered tools end-to-end  
 - 📝 Write 12 AI engineering blogs  
-- 🎙️ Speak at 2 AI or developer meetups  
+- 🎙️ Speak at AI or developer meetups  
 - 🌱 Contribute to open-source AI projects
 
 ---
