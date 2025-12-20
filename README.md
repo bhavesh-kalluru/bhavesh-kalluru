@@ -185,17 +185,17 @@
 
 ## Word of the Day
 <!-- DAILY:WORD -->
-**Serendipity** — Finding something good without looking for it
+**Ebullience** — Cheerful, energetic enthusiasm
 <!-- END:WORD -->
 
 ## Tech Term of the Day
 <!-- DAILY:TECH -->
-**PEFT** — Parameter-Efficient Fine-Tuning
+**RAG** — Retrieval-Augmented Generation
 <!-- END:TECH -->
 
 ### 🎯 Favorite Quote
 <!-- DAILY:QUOTE -->
-> “It always seems impossible until it’s done.” — Nelson Mandela
+> “The secret of getting ahead is getting started.” — Mark Twain
 <!-- END:QUOTE -->
 
 
