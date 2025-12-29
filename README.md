@@ -89,17 +89,16 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=bhavesh-kalluru&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&rank_icon=github&hide_border=true&border_radius=10" width="420"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=bhavesh-kalluru&amp;show_icons=true&amp;theme=tokyonight&amp;count_private=true&amp;include_all_commits=true&amp;rank_icon=github&amp;hide_border=true&amp;border_radius=10&amp;cache_seconds=86400&amp;v=1" width="420"/>
 </p>
+
 ---
 
 ### 📈 Top Languages
 
-
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bhavesh-kalluru&show_icons=true&theme=tokyonight&layout=compact&size_weight=0.5&count_weight=0.5" alt="Top Languages"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bhavesh-kalluru&amp;show_icons=true&amp;theme=tokyonight&amp;layout=compact&amp;size_weight=0.5&amp;count_weight=0.5&amp;cache_seconds=86400&amp;v=1" alt="Top Languages"/>
 </p>
----
 
 ### 🗓️ GitHub Contribution Graph
 
