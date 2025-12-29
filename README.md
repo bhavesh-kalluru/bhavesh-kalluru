@@ -86,37 +86,6 @@
 
 ---
 
-<h2 align="center">🧠 GenAI End-to-End Languages</h2>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,typescript,javascript,go,java,cpp,bash,sql&perline=8" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-LLMs%20%7C%20RAG%20%7C%20ML%20Pipelines-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-Analytics%20%7C%20Warehousing%20%7C%20ETL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/TypeScript-Frontends%20%7C%20Dashboards%20%7C%20Agents-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-Apps%20%7C%20APIs%20%7C%20Automation-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000000" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Go-High%20Performance%20Services%20%7C%20Concurrency-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-Enterprise%20Systems%20%7C%20Backend-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/C%2B%2B-Low%20Latency%20%7C%20Optimization-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bash-DevOps%20%7C%20Automation-121011?style=for-the-badge&logo=gnu-bash&logoColor=white" />
-</p>
-
-<hr/>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bhavesh-kalluru&layout=compact&theme=tokyonight&hide_border=true&size_weight=0.5&count_weight=0.5&cache_seconds=86400&v=2" />
-</p>
 
 
 ### 🗓️ GitHub Contribution Graph
