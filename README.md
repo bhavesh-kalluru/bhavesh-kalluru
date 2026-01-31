@@ -171,17 +171,17 @@
 
 ## Word of the Day
 <!-- DAILY:WORD -->
-**Serendipity** — Finding something good without looking for it
+**Ebullience** — Cheerful, energetic enthusiasm
 <!-- END:WORD -->
 
 ## Tech Term of the Day
 <!-- DAILY:TECH -->
-**PEFT** — Parameter-Efficient Fine-Tuning
+**RAG** — Retrieval-Augmented Generation
 <!-- END:TECH -->
 
 ### 🎯 Favorite Quote
 <!-- DAILY:QUOTE -->
-> “Whether you think you can or you can’t, you’re right.” — Henry Ford
+> “Stay hungry. Stay foolish.” — Steve Jobs
 <!-- END:QUOTE -->
 
 
