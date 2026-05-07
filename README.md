@@ -181,7 +181,7 @@
 
 ### 🎯 Favorite Quote
 <!-- DAILY:QUOTE -->
-> “Whether you think you can or you can’t, you’re right.” — Henry Ford
+> “Make it work, make it right, make it fast.” — Kent Beck
 <!-- END:QUOTE -->
 
 
