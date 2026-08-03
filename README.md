@@ -217,18 +217,6 @@ Serving 1,200+ business users across:
 
 ---
 
-## 📈 Top Languages
-
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bhavesh-kalluru&layout=compact&theme=react-dark" />
-
-</div>
-
-
----
-
 ## 🗓️ GitHub Contribution Graph
 
 
