@@ -1,7 +1,7 @@
 <h1 align="center">Hey, I'm Bhavesh Kalluru 👋</h1>
 
 <p align="center" style="font-size: 1.2rem;">
-🚀 Senior Generative AI / ML Engineer — 6+ years shipping production ML & enterprise GenAI systems
+🚀 Generative AI / ML Engineer — 6+ years shipping production ML & enterprise GenAI systems
 <br/>
 <strong>
 🧠 Senior GenAI Engineer @ Prudential Financial | 🤖 RAG & Multi-Agent Systems | 📊 ML Engineer
