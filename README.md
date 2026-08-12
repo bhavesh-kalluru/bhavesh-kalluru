@@ -51,7 +51,7 @@
 
 ## 👨‍💻 About Me
 
-Senior Generative AI / Machine Learning Engineer with 9+ years of experience building production ML systems and enterprise GenAI solutions.
+Gen AI engineer and ML Engineer with 6+ years of experience building production ML systems and enterprise GenAI solutions.
 
 Specializing in:
 
@@ -150,7 +150,7 @@ Repeatable LoRA/QLoRA pipeline hitting ~92% of frontier-model quality at ~15% of
 
 ## 💼 Professional Experience
 
-### 🧠 Senior Generative AI Engineer @ Prudential Financial
+### 🧠 Generative AI Engineer @ Cognit AI INC
 
 Building enterprise-scale AI solutions focused on:
 
@@ -173,7 +173,7 @@ Serving 1,200+ business users across:
 
 ## ⏳ Currently Building
 
-- 🏢 Enterprise RAG platform @ Prudential Financial — hybrid retrieval + LangGraph multi-agent workflows serving 1,200+ business users across underwriting, claims, and compliance
+- 🏢 Enterprise RAG platform @ Cognit AI INC — hybrid retrieval + LangGraph multi-agent workflows serving 1,200+ business users across underwriting, claims, and compliance
 
 - 🤖 Extending my Agentic Document Intelligence Platform with new specialist agents
 
@@ -184,7 +184,7 @@ Serving 1,200+ business users across:
 
 ## 🏆 Highlights
 
-- ✅ 9+ Years of ML Engineering Experience
+- ✅ 6+ Years of ML Engineering Experience
 
 - ✅ Production Generative AI Systems
 
