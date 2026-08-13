@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 300" width="180" height="225">
+  <defs>
+    <radialGradient id="bodyGrad" cx="35%" cy="25%" r="80%">
+      <stop offset="0%" stop-color="#d4fbf1"/>
+      <stop offset="55%" stop-color="#8fe9d4"/>
+      <stop offset="100%" stop-color="#5bd1b6"/>
+    </radialGradient>
+  </defs>
+
+  <style>
+    @keyframes wiggle {
+      0%   { transform: translateY(0) rotate(-4deg); }
+      25%  { transform: translateY(-8px) rotate(4deg); }
+      50%  { transform: translateY(0) rotate(-3deg); }
+      75%  { transform: translateY(-8px) rotate(5deg); }
+      100% { transform: translateY(0) rotate(-4deg); }
+    }
+    @keyframes blink {
+      0%, 88%, 100% { transform: scaleY(1); }
+      92% { transform: scaleY(0.15); }
+    }
+    @keyframes twinkle {
+      0%, 100% { opacity: 1; transform: rotate(0deg) scale(1); }
+      50% { opacity: 0.5; transform: rotate(20deg) scale(0.85); }
+    }
+    @keyframes waveLeft {
+      0%, 100% { transform: rotate(-18deg); }
+      50% { transform: rotate(32deg); }
+    }
+    @keyframes waveRight {
+      0%, 100% { transform: rotate(18deg); }
+      50% { transform: rotate(-32deg); }
+    }
+    @keyframes footWiggle {
+      0%, 100% { transform: rotate(10deg); }
+      50% { transform: rotate(-10deg); }
+    }
+    @keyframes heartBeat {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.25); }
+    }
+    @keyframes cheekPulse {
+      0%, 100% { opacity: 0.55; }
+      50% { opacity: 0.85; }
+    }
+    @keyframes shadowPulse {
+      0%, 100% { transform: scaleX(1); opacity: 0.25; }
+      50% { transform: scaleX(0.78); opacity: 0.12; }
+    }
+    @keyframes floatHeart {
+      0% { transform: translateY(0) scale(0.6); opacity: 0; }
+      15% { opacity: 1; }
+      100% { transform: translateY(-45px) scale(0.9); opacity: 0; }
+    }
+    .shadow { animation: shadowPulse 0.9s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .bot { animation: wiggle 0.9s ease-in-out infinite; transform-box: fill-box; transform-origin: bottom center; }
+    .eye { animation: blink 3.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .sparkle { animation: twinkle 1.3s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .arm-left { animation: waveLeft 0.9s ease-in-out infinite; transform-box: fill-box; transform-origin: top center; }
+    .arm-right { animation: waveRight 0.9s ease-in-out infinite; transform-box: fill-box; transform-origin: top center; }
+    .foot-left { animation: footWiggle 0.9s ease-in-out infinite; transform-box: fill-box; transform-origin: top center; }
+    .foot-right { animation: footWiggle 0.9s ease-in-out infinite reverse; transform-box: fill-box; transform-origin: top center; }
+    .heart { animation: heartBeat 0.8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .cheek { animation: cheekPulse 1.5s ease-in-out infinite; }
+    .fheart1 { animation: floatHeart 2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .fheart2 { animation: floatHeart 2s ease-in-out infinite 1s; transform-box: fill-box; transform-origin: center; }
+  </style>
+
+  <ellipse class="shadow" cx="120" cy="270" rx="65" ry="11" fill="#000000"/>
+
+  <path class="fheart1" d="M38 130c-2-4-8-4-8 1 0 4 8 9 8 9s8-5 8-9c0-5-6-5-8-1z" fill="#ff9ec4"/>
+  <path class="fheart2" d="M196 148c-2-4-8-4-8 1 0 4 8 9 8 9s8-5 8-9c0-5-6-5-8-1z" fill="#5bd1b6"/>
+
+  <g class="bot">
+    <line x1="120" y1="58" x2="120" y2="32" stroke="#ff9ec4" stroke-width="3.5" stroke-linecap="round"/>
+    <path class="sparkle" d="M120 16 L124 26 L134 30 L124 34 L120 44 L116 34 L106 30 L116 26 Z" fill="#ff9ec4"/>
+
+    <g class="arm-left">
+      <ellipse cx="34" cy="168" rx="15" ry="29" fill="url(#bodyGrad)" stroke="#ff9ec4" stroke-width="3"/>
+    </g>
+    <g class="arm-right">
+      <ellipse cx="206" cy="168" rx="15" ry="29" fill="url(#bodyGrad)" stroke="#ff9ec4" stroke-width="3"/>
+    </g>
+
+    <g class="foot-left">
+      <ellipse cx="92" cy="256" rx="22" ry="13" fill="url(#bodyGrad)" stroke="#ff9ec4" stroke-width="3"/>
+    </g>
+    <g class="foot-right">
+      <ellipse cx="148" cy="256" rx="22" ry="13" fill="url(#bodyGrad)" stroke="#ff9ec4" stroke-width="3"/>
+    </g>
+
+    <ellipse cx="120" cy="155" rx="92" ry="102" fill="url(#bodyGrad)" stroke="#ff9ec4" stroke-width="4"/>
+
+    <ellipse class="cheek" cx="72" cy="172" rx="11" ry="8" fill="#ff9ec4"/>
+    <ellipse class="cheek" cx="168" cy="172" rx="11" ry="8" fill="#ff9ec4"/>
+
+    <g class="eye">
+      <ellipse cx="88" cy="148" rx="13" ry="17" fill="#2b2540"/>
+      <circle cx="84" cy="142" r="3.5" fill="#ffffff"/>
+    </g>
+    <g class="eye">
+      <ellipse cx="152" cy="148" rx="13" ry="17" fill="#2b2540"/>
+      <circle cx="148" cy="142" r="3.5" fill="#ffffff"/>
+    </g>
+
+    <path d="M100 188 Q120 200 140 188" fill="none" stroke="#2b2540" stroke-width="3.5" stroke-linecap="round"/>
+
+    <path class="heart" d="M120 222c-4-8-16-8-16 2 0 8 16 18 16 18s16-10 16-18c0-10-12-10-16-2z" fill="#ff9ec4"/>
+  </g>
+</svg>
