@@ -201,22 +201,6 @@ Serving 1,200+ business users across:
 
 ---
 
-## 📊 GitHub Stats
-
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=bhavesh-kalluru&show_icons=true&theme=react-dark" />
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=bhavesh-kalluru&theme=react-dark" />
-
-</div>
-
-
----
-
 ## 🗓️ GitHub Contribution Graph
 
 
