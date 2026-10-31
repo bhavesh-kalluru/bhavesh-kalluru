@@ -276,7 +276,7 @@ Serving 1,200+ business users across:
 ## 📖 Word of the Day
 
 <!-- DAILY:WORD -->
-**Ebullience** — Cheerful, energetic enthusiasm
+**Serendipity** — Finding something good without looking for it
 <!-- END:WORD -->
 
 
@@ -285,7 +285,7 @@ Serving 1,200+ business users across:
 ## 🧠 Tech Term of the Day
 
 <!-- DAILY:TECH -->
-**RAG** — Retrieval-Augmented Generation
+**PEFT** — Parameter-Efficient Fine-Tuning
 <!-- END:TECH -->
 
 
@@ -294,7 +294,7 @@ Serving 1,200+ business users across:
 ## 🎯 Favorite Quote
 
 <!-- DAILY:QUOTE -->
-> “It always seems impossible until it’s done.” — Nelson Mandela
+> “The secret of getting ahead is getting started.” — Mark Twain
 <!-- END:QUOTE -->
 
 
