@@ -140,15 +140,54 @@ A search-assisted RAG app for exploring AI news, emerging tools and research the
 ## 📡 Live GitHub telemetry
 
 <div align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=bhavesh-kalluru&show_icons=true&hide_border=true&bg_color=0B1428&title_color=78E7FF&text_color=C5D5EF&icon_color=A68BFF" alt="GitHub statistics">
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bhavesh-kalluru&layout=compact&hide_border=true&bg_color=0B1428&title_color=78E7FF&text_color=C5D5EF&langs_count=7" alt="Most common repository languages">
+  <img src="https://img.shields.io/badge/LIVE_GITHUB_INSIGHTS-ONLINE-0B1428?style=for-the-badge&labelColor=14243C&color=20B9CF&logo=github&logoColor=white" alt="Live GitHub insights">
+  <p><sub>A snapshot of repositories, languages, contributions and creative coding activity.</sub></p>
 </div>
 
-<div align="center"><img src="https://github-readme-activity-graph.vercel.app/graph?username=bhavesh-kalluru&bg_color=0B1428&color=9BBCE8&line=6AE4F6&point=B19BFF&area=true&hide_border=true" alt="GitHub contribution activity graph" width="100%"></div>
+### 📊 GitHub statistics · Most common repository languages
 
-<details><summary><b>🐍 Watch my contributions come alive</b></summary><br>
-<div align="center"><img src="https://raw.githubusercontent.com/bhavesh-kalluru/snk/output/github-contribution-grid-snake.svg" alt="Animated contribution snake" width="100%"></div>
-</details>
+<table align="center">
+  <tr>
+    <td align="center" width="53%">
+      <strong>📈 GitHub statistics</strong><br><br>
+      <a href="https://github.com/bhavesh-kalluru">
+        <img src="https://github-readme-stats.vercel.app/api?username=bhavesh-kalluru&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&bg_color=0B1428&title_color=78E7FF&text_color=D6E5FF&icon_color=A68BFF&border_radius=12" width="100%" alt="Bhavesh Kalluru GitHub statistics: stars, commits, pull requests and activity">
+      </a>
+    </td>
+    <td align="center" width="47%">
+      <strong>🧬 Most common repository languages</strong><br><br>
+      <a href="https://github.com/bhavesh-kalluru?tab=repositories">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bhavesh-kalluru&layout=compact&langs_count=8&hide_border=true&bg_color=0B1428&title_color=78E7FF&text_color=D6E5FF&border_radius=12" width="100%" alt="Most commonly used languages across public GitHub repositories">
+      </a>
+    </td>
+  </tr>
+</table>
+
+<sub>Language statistics reflect public repository code, not personal proficiency. Third-party stats cards may occasionally be unavailable.</sub>
+
+### 📈 GitHub contribution activity graph
+
+<div align="center">
+  <a href="https://github.com/bhavesh-kalluru?tab=overview">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=bhavesh-kalluru&bg_color=0B1428&color=9BBCE8&line=6AE4F6&point=B19BFF&area=true&area_color=153453&hide_border=true&radius=12" alt="Bhavesh Kalluru contribution activity timeline" width="100%">
+  </a>
+  <br><sub>Follow the journey — projects, experiments and contributions over time.</sub>
+</div>
+
+### 🐍 Watch my contributions come alive
+
+<div align="center">
+  <a href="https://github.com/bhavesh-kalluru/snk/tree/output">
+    <img src="https://raw.githubusercontent.com/bhavesh-kalluru/snk/output/github-contribution-grid-snake.svg" alt="Animated snake exploring Bhavesh's GitHub contribution calendar" width="100%">
+  </a>
+  <br><sub>✨ Animated contribution snake · <a href="https://github.com/bhavesh-kalluru/snk">Source and generation workflow</a></sub>
+</div>
+
+<div align="center">
+  <br>
+  <a href="https://github.com/bhavesh-kalluru?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE_ALL_REPOSITORIES-192845?style=for-the-badge&logo=github&logoColor=78E7FF" alt="View all GitHub repositories"></a>
+  <a href="https://github.com/bhavesh-kalluru?tab=overview"><img src="https://img.shields.io/badge/VIEW_CONTRIBUTIONS-3D357C?style=for-the-badge&logo=github&logoColor=white" alt="View GitHub contributions"></a>
+</div>
 
 ---
 
