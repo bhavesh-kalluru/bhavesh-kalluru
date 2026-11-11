@@ -190,6 +190,17 @@ I'm into new technology, trucking and volleyball — and always interested in ho
 
 ---
 
+## 🐾 Play Mode · Fetch Break
+
+<div align="center">
+  <sub>Even AI engineers need a little playtime. 🎾</sub>
+  <br>
+  <img src="./assets/dog-fetch-small.gif" alt="A golden retriever jumping naturally to catch a tennis ball in a short looping animation" width="150">
+  <br>
+  <sub>Catch. Celebrate. Back to building. 🐶</sub>
+</div>
+---
+
 ## ✨ Daily signals
 
 <details><summary><b>📖 Today's word · 🧠 Today's tech term · 💬 Today's quote</b></summary><br>
