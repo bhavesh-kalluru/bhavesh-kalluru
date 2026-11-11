@@ -1,0 +1,52 @@
+name: Refresh self-hosted GitHub telemetry
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 6 * * *'
+  push:
+    paths:
+      - 'scripts/build_telemetry.py'
+      - '.github/workflows/telemetry.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-profile-telemetry
+  cancel-in-progress: false
+
+jobs:
+  telemetry:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build 3 SVG dashboards from GitHub API
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/build_telemetry.py
+      - name: Validate SVG files
+        run: |
+          python - <<'PY'
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
+          files = sorted(Path('assets').glob('telemetry-*.svg'))
+          assert len(files) == 3, files
+          for p in files:
+              ET.parse(p)
+              print('VALID', p, p.stat().st_size)
+          PY
+      - name: Commit generated graphics
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/telemetry-stats.svg assets/telemetry-languages.svg assets/telemetry-activity.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update first-party GitHub telemetry"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
