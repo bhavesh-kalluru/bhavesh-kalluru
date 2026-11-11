@@ -140,54 +140,37 @@ A search-assisted RAG app for exploring AI news, emerging tools and research the
 ## 📡 Live GitHub telemetry
 
 <div align="center">
-  <img src="https://img.shields.io/badge/LIVE_GITHUB_INSIGHTS-ONLINE-0B1428?style=for-the-badge&labelColor=14243C&color=20B9CF&logo=github&logoColor=white" alt="Live GitHub insights">
-  <p><sub>A snapshot of repositories, languages, contributions and creative coding activity.</sub></p>
+  <img src="https://img.shields.io/badge/GITHUB_API-DAILY_REFRESH-13233F?style=for-the-badge&labelColor=13233F&color=1D9CB2&logo=github&logoColor=white" alt="GitHub API powered, daily refreshed">
+  <br><sub>Premium self-hosted SVG dashboards generated from GitHub data every day — no fragile third-party stats servers.</sub>
 </div>
 
 ### 📊 GitHub statistics · Most common repository languages
 
-<table align="center">
-  <tr>
-    <td align="center" width="53%">
-      <strong>📈 GitHub statistics</strong><br><br>
-      <a href="https://github.com/bhavesh-kalluru">
-        <img src="https://github-readme-stats.vercel.app/api?username=bhavesh-kalluru&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&bg_color=0B1428&title_color=78E7FF&text_color=D6E5FF&icon_color=A68BFF&border_radius=12" width="100%" alt="Bhavesh Kalluru GitHub statistics: stars, commits, pull requests and activity">
-      </a>
-    </td>
-    <td align="center" width="47%">
-      <strong>🧬 Most common repository languages</strong><br><br>
-      <a href="https://github.com/bhavesh-kalluru?tab=repositories">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bhavesh-kalluru&layout=compact&langs_count=8&hide_border=true&bg_color=0B1428&title_color=78E7FF&text_color=D6E5FF&border_radius=12" width="100%" alt="Most commonly used languages across public GitHub repositories">
-      </a>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://github.com/bhavesh-kalluru"><img src="./assets/telemetry-stats.svg" alt="Public repository statistics, stars, followers and forks" width="49%"></a>
+  <a href="https://github.com/bhavesh-kalluru?tab=repositories"><img src="./assets/telemetry-languages.svg" alt="Most common languages among my public GitHub repositories" width="49%"></a>
+</p>
 
-<sub>Language statistics reflect public repository code, not personal proficiency. Third-party stats cards may occasionally be unavailable.</sub>
+<div align="center"><sub>Language distribution counts repositories by their primary language, not total lines of code or professional proficiency.</sub></div>
 
 ### 📈 GitHub contribution activity graph
 
 <div align="center">
-  <a href="https://github.com/bhavesh-kalluru?tab=overview">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=bhavesh-kalluru&bg_color=0B1428&color=9BBCE8&line=6AE4F6&point=B19BFF&area=true&area_color=153453&hide_border=true&radius=12" alt="Bhavesh Kalluru contribution activity timeline" width="100%">
-  </a>
-  <br><sub>Follow the journey — projects, experiments and contributions over time.</sub>
+  <a href="https://github.com/bhavesh-kalluru?tab=overview"><img src="./assets/telemetry-activity.svg" alt="GitHub daily contribution calendar for the last twelve months" width="100%"></a>
+  <br><sub>Built from GitHub's contribution calendar. Refreshed daily by <a href="https://github.com/bhavesh-kalluru/bhavesh-kalluru/actions/workflows/telemetry.yml">GitHub Actions</a>.</sub>
 </div>
 
 ### 🐍 Watch my contributions come alive
 
 <div align="center">
-  <a href="https://github.com/bhavesh-kalluru/snk/tree/output">
-    <img src="https://raw.githubusercontent.com/bhavesh-kalluru/snk/output/github-contribution-grid-snake.svg" alt="Animated snake exploring Bhavesh's GitHub contribution calendar" width="100%">
-  </a>
-  <br><sub>✨ Animated contribution snake · <a href="https://github.com/bhavesh-kalluru/snk">Source and generation workflow</a></sub>
+  <a href="https://github.com/bhavesh-kalluru/snk/tree/output"><img src="https://raw.githubusercontent.com/bhavesh-kalluru/snk/output/github-contribution-grid-snake.svg" alt="Animated snake crossing my GitHub contribution calendar" width="100%"></a>
+  <br><sub>Animated by <a href="https://github.com/bhavesh-kalluru/snk">snk</a> — keep coding, keep growing.</sub>
 </div>
 
-<div align="center">
-  <br>
-  <a href="https://github.com/bhavesh-kalluru?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE_ALL_REPOSITORIES-192845?style=for-the-badge&logo=github&logoColor=78E7FF" alt="View all GitHub repositories"></a>
+<p align="center">
+  <a href="https://github.com/bhavesh-kalluru?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE_REPOSITORIES-192845?style=for-the-badge&logo=github&logoColor=78E7FF" alt="Explore GitHub repositories"></a>
   <a href="https://github.com/bhavesh-kalluru?tab=overview"><img src="https://img.shields.io/badge/VIEW_CONTRIBUTIONS-3D357C?style=for-the-badge&logo=github&logoColor=white" alt="View GitHub contributions"></a>
-</div>
+</p>
 
 ---
 
