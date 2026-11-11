@@ -1,6 +1,6 @@
 <!-- NEURAL NIGHT EDITION · Designed for GitHub profile rendering -->
 <div align="center">
-<a href="https://github.com/bhavesh-kalluru"><img src="./assets/hero.svg" alt="Bhavesh Kalluru — Generative AI and Machine Learning Engineering — neon neural network hero" width="100%"></a>
+<a href="https://github.com/bhavesh-kalluru"><img src="./assets/hero.gif" alt="Bhavesh Kalluru — Generative AI and Machine Learning Engineering — neon neural network hero" width="100%"></a>
 <br><br>
 <a href="https://www.linkedin.com/in/kbhavesh/"><img src="https://img.shields.io/badge/CONNECT_ON_LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"></a>
 <a href="mailto:bhavesh.r.kalluru@gmail.com"><img src="https://img.shields.io/badge/LET'S_TALK-202B4A?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact by email"></a>
