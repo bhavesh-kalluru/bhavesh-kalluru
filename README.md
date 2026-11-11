@@ -276,7 +276,7 @@ Serving 1,200+ business users across:
 ## 📖 Word of the Day
 
 <!-- DAILY:WORD -->
-**Serendipity** — Finding something good without looking for it
+**Ebullience** — Cheerful, energetic enthusiasm
 <!-- END:WORD -->
 
 
@@ -285,7 +285,7 @@ Serving 1,200+ business users across:
 ## 🧠 Tech Term of the Day
 
 <!-- DAILY:TECH -->
-**PEFT** — Parameter-Efficient Fine-Tuning
+**RAG** — Retrieval-Augmented Generation
 <!-- END:TECH -->
 
 
@@ -294,7 +294,7 @@ Serving 1,200+ business users across:
 ## 🎯 Favorite Quote
 
 <!-- DAILY:QUOTE -->
-> “The secret of getting ahead is getting started.” — Mark Twain
+> “Whether you think you can or you can’t, you’re right.” — Henry Ford
 <!-- END:QUOTE -->
 
 
