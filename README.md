@@ -1,337 +1,208 @@
-<h1 align="center">Hey, I'm Bhavesh Kalluru 👋</h1>
-
-<p align="center" style="font-size: 1.2rem;">
-🚀 Generative AI / ML Engineer — 6+ years shipping production ML & enterprise GenAI systems
-<br/>
-<strong>
-🧠 Senior GenAI Engineer @ Prudential Financial | 🤖 RAG & Multi-Agent Systems | 📊 ML Engineer
-</strong>
-</p>
-
-
-[![AI Engineering](https://img.shields.io/badge/AI%20Engineering-1f6feb?style=flat&logo=openai&logoColor=white)](#)
-[![LLM Engineering](https://img.shields.io/badge/LLM%20Engineering-663399?style=flat)](#)
-[![NLP Engineering](https://img.shields.io/badge/NLP%20Engineering-8A2BE2?style=flat)](#)
-[![ML Engineer](https://img.shields.io/badge/ML%20Engineer-4caf50?style=flat)](#)
-[![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-FF1493?style=flat)](#)
-[![RAG](https://img.shields.io/badge/RAG-FF8C00?style=flat)](#)
-[![Transformers](https://img.shields.io/badge/Transformers-FF6F61?style=flat&logo=huggingface&logoColor=white)](#)
-[![LangChain](https://img.shields.io/badge/LangChain-2E7D32?style=flat)](#)
-[![Vector Embeddings](https://img.shields.io/badge/Vector%20Embeddings-00599C?style=flat)](#)
-[![FAISS](https://img.shields.io/badge/FAISS-0A66C2?style=flat)](#)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](#)
-[![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)](#)
-[![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)](#)
-[![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)](#)
-[![PyTorch](https://img.shields.io/badge/PyTorch-ee4c2c?style=flat&logo=pytorch&logoColor=white)](#)
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)](#)
-[![JAX](https://img.shields.io/badge/JAX-0d47a1?style=flat)](#)
-[![SQL](https://img.shields.io/badge/SQL-336791?style=flat)](#)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)](#)
-[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)](#)
-[![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)](#)
-[![dbt](https://img.shields.io/badge/dbt-f76819?style=flat&logo=dbt&logoColor=white)](#)
-[![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat&logo=snowflake&logoColor=white)](#)
-[![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=000000)](#)
-[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)](#)
-[![Streamlit](https://img.shields.io/badge/Streamlit-ff4b4b?style=flat&logo=streamlit&logoColor=white)](#)
-[![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white)](#)
-[![ONNX](https://img.shields.io/badge/ONNX-336699?style=flat)](#)
-[![TorchServe](https://img.shields.io/badge/TorchServe-ee4c2c?style=flat&logo=pytorch&logoColor=white)](#)
-[![Triton](https://img.shields.io/badge/Triton-0033A0?style=flat)](#)
-[![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)](#)
-
-
-<p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=500&color=FF6F61&center=true&vCenter=true&width=1000&lines=🔥+build+the+future+of+AI+together+—+Collaborate+•+Create+•+Automate+🔥" />
-</p>
-
-
----
-
-## 👨‍💻 About Me
-
-Gen AI engineer and ML Engineer with 6+ years of experience building production ML systems and enterprise GenAI solutions.
-
-Specializing in:
-
-- 🤖 Generative AI Applications
-- 🔍 Retrieval-Augmented Generation (RAG)
-- 🧠 Multi-Agent AI Systems
-- 📚 LLM Engineering
-- ⚡ Prompt Engineering
-- 🏗️ Production ML Systems
-- ☁️ Cloud AI Platforms
-- 📊 Data & Analytics Engineering
-
-
----
-
-## 🚀 What I Build
-
-- Enterprise RAG Platforms
-- Multi-Agent AI Systems
-- AI Assistants
-- LLM Fine-Tuning Pipelines
-- AI Automation Systems
-- Knowledge Search Platforms
-- ML APIs
-- Production AI Infrastructure
-
-
----
-
-## ⚙️ Tech Stack & Tools
-
-
-### 🤖 Generative AI
-
-OpenAI • LangChain • LangGraph • LlamaIndex • Transformers • Hugging Face • RAG • Prompt Engineering
-
-
-### 🧠 Machine Learning
-
-PyTorch • TensorFlow • Scikit-Learn • JAX • MLflow • ONNX • TorchServe • Triton
-
-
-### 🔍 Search & Retrieval
-
-FAISS • Vector Embeddings • Hybrid Search • Elasticsearch • Re-ranking
-
-
-### 🐍 Programming
-
-Python • SQL • FastAPI • Streamlit
-
-
-### 🗄️ Data Platforms
-
-PostgreSQL • MySQL • SQLite • Snowflake • dbt
-
-
-### ☁️ Engineering
-
-Docker • APIs • MLOps • CI/CD
-
-
----
-
-## 🚀 Featured Projects
-
-
-### 🤖 Agentic Document Intelligence Platform
-
-**Stack**
-
-`LangGraph` `Python` `Pinecone` `FastAPI` `AWS Bedrock`
-
-Multi-agent system (planner, retriever, analysis, verification agents) that rejects unsupported claims before they reach the user — cut unsupported claims ~70% and multi-doc runtime from ~8 min to ~45 sec.
-
-
-### 🔍 Hybrid-Search RAG Engine with Re-Ranking
-
-**Stack**
-
-`LlamaIndex` `FAISS` `Elasticsearch` `Cross-Encoder` `Docker`
-
-BM25 + dense retrieval fused via reciprocal rank fusion and cross-encoder re-ranking — precision@5 up ~28% over vector-only baseline, with an automated RAGAS eval harness wired into CI.
-
-
-### ⚡ LLM Fine-Tuning & Domain Adaptation Pipeline
-
-**Stack**
-
-`Hugging Face` `PEFT/LoRA` `PyTorch` `MLflow` `vLLM`
-
-Repeatable LoRA/QLoRA pipeline hitting ~92% of frontier-model quality at ~15% of inference cost, served via vLLM at ~150 req/s (p95 ~180ms).
-
-
----
-
-## 💼 Professional Experience
-
-### 🧠 Generative AI Engineer @ Cognit AI INC
-
-Building enterprise-scale AI solutions focused on:
-
-- 🏢 Enterprise RAG Platforms
-- 🤖 LangGraph Multi-Agent Workflows
-- 🔍 Hybrid Retrieval Systems
-- 📚 Knowledge Intelligence Platforms
-- 🛡️ AI Governance & Responsible AI
-- ⚡ Production LLM Applications
-
-Serving 1,200+ business users across:
-
-- Underwriting
-- Claims
-- Compliance
-- Enterprise Operations
-
-
----
-
-## ⏳ Currently Building
-
-- 🏢 Enterprise RAG platform @ Cognit AI INC — hybrid retrieval + LangGraph multi-agent workflows serving 1,200+ business users across underwriting, claims, and compliance
-
-- 🤖 Extending my Agentic Document Intelligence Platform with new specialist agents
-
-- 🌐 Personal portfolio website with Next.js 15 & Turbopack
-
-
----
-
-## 🏆 Highlights
-
-- ✅ 6+ Years of ML Engineering Experience
-
-- ✅ Production Generative AI Systems
-
-- ✅ Enterprise RAG Architecture
-
-- ✅ Multi-Agent AI Development
-
-- ✅ LLM Fine-Tuning & Optimization
-
-- ✅ Cloud AI Solutions
-
-- ✅ Machine Learning Engineering
-
-
----
-
-## 🗓️ GitHub Contribution Graph
-
-
+<!-- NEURAL NIGHT EDITION · Designed for GitHub profile rendering -->
 <div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=bhavesh-kalluru&theme=react-dark" alt="GitHub Contribution Graph" />
-
+<a href="https://github.com/bhavesh-kalluru"><img src="./assets/hero.svg" alt="Bhavesh Kalluru — Generative AI and Machine Learning Engineering — neon neural network hero" width="100%"></a>
+<br><br>
+<a href="https://www.linkedin.com/in/kbhavesh/"><img src="https://img.shields.io/badge/CONNECT_ON_LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"></a>
+<a href="mailto:bhavesh.r.kalluru@gmail.com"><img src="https://img.shields.io/badge/LET'S_TALK-202B4A?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact by email"></a>
+<a href="https://github.com/bhavesh-kalluru?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE_MY_BUILDS-6144B8?style=for-the-badge&logo=github&logoColor=white" alt="Browse repositories"></a>
+<br><br>
+<img src="https://komarev.com/ghpvc/?username=bhavesh-kalluru&style=flat-square&color=26b8d8&label=PROFILE+VIEWS" alt="Profile views">
+<img src="https://img.shields.io/badge/OPEN_TO_FULL--TIME_ROLES-USA-2DAA84?style=flat-square" alt="Open to US full-time roles">
+<br><br>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&pause=1050&color=78E7FF&center=true&vCenter=true&width=850&height=45&lines=Building+AI+that+goes+beyond+the+demo.;RAG+%E2%86%92+Agents+%E2%86%92+Evaluation+%E2%86%92+Production;Turning+complex+ideas+into+working+systems.;Curious+mind.+Builder+mindset.+Always+shipping." alt="Animated engineering philosophy typing text">
+<br>
+<sub>BUILD WITH PURPOSE &nbsp; · &nbsp; GROUND WITH EVIDENCE &nbsp; · &nbsp; SHIP WITH CONFIDENCE</sub>
 </div>
 
+---
+
+## ◈ The engineer behind the systems
+
+<table><tr><td width="58%" valign="top">
+
+### Hello, I'm Bhavesh 👋
+
+I'm a **Generative AI and Machine Learning Engineer** with **6+ years of experience** across ML applications, enterprise AI workflows and data-driven systems.
+
+I focus on the space between a polished prototype and a useful production system: **retrieval quality, agent coordination, evaluation, APIs, observability and deployment**.
+
+- 🧠 **Designing:** grounded LLM applications and multi-agent workflows
+- ⚙️ **Engineering:** Python services, inference pipelines and MLOps
+- 🔎 **Optimizing:** retrieval relevance, performance and reliability
+- 🎯 **Exploring:** full-time GenAI / ML engineering opportunities in the U.S.
+
+</td><td width="42%" valign="top">
+
+### `> whoami`
+
+**Name:** Bhavesh Kalluru
+
+**Focus:** RAG · Agentic AI · ML Engineering
+
+**Build style:** end-to-end
+
+**Philosophy:** *Evidence > hype*
+
+**Learning:** MCP · AI evaluation · responsible AI
+
+</td></tr></table>
+
+## ✧ How I build intelligent systems
+
+<div align="center"><img src="./assets/ai-pipeline.svg" width="100%" alt="AI engineering workflow: discover, retrieve, reason, evaluate, deliver"></div>
+
+> **My north star:** an AI system should be not just clever, but explainable, testable, resilient and valuable to the people using it.
 
 ---
 
-## 🐍 GitHub Snake Animation
+## ⚡ Featured engineering projects
 
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<p align="center">
+### 🛡️ [AI Incident Command Center](https://github.com/bhavesh-kalluru/Ai-Incident-Command-Center)
 
-<img src="https://github.com/bhavesh-kalluru/snk/raw/output/github-contribution-grid-snake.svg?color_snake=#00FF00&color_dots=#d0e7ff,#b3d1ff,#66b2ff,#3399ff,#007acc" alt="GitHub Contribution Snake" />
+**Operational AI · Observability**
 
-</p>
+Simulated real-time service telemetry, explainable anomaly rules, alert acknowledgment and optional AI-assisted incident summaries.
 
+**Stack:** Python · Streamlit · SQLite · Docker
+
+[Explore source →](https://github.com/bhavesh-kalluru/Ai-Incident-Command-Center)
+
+</td>
+<td width="50%" valign="top">
+
+### 🔍 [GenAI Playbook](https://github.com/bhavesh-kalluru/GenAI-Playbook)
+
+**Retrieval-Augmented Generation**
+
+A hands-on RAG environment featuring document ingestion, chunking, embeddings, ChromaDB retrieval and citation-backed responses.
+
+**Stack:** OpenAI · Python · ChromaDB · Streamlit
+
+[Explore source →](https://github.com/bhavesh-kalluru/GenAI-Playbook)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🧾 [AI Returns & Claims Hub](https://github.com/bhavesh-kalluru/AI-Returns-Claims-Hub-End-to-End-ML-NLP-CV-GenAI-Web-App)
+
+**ML · NLP · Computer Vision**
+
+An end-to-end demo combining claims data, text classification, image-quality checks, refund prediction and GenAI support workflows.
+
+**Stack:** scikit-learn · NLP · Streamlit · SQL
+
+[Explore source →](https://github.com/bhavesh-kalluru/AI-Returns-Claims-Hub-End-to-End-ML-NLP-CV-GenAI-Web-App)
+
+</td>
+<td width="50%" valign="top">
+
+### 🌐 [AI Trends RAG](https://github.com/bhavesh-kalluru/AI_Trends_RAG)
+
+**Live retrieval · Industry intelligence**
+
+A search-assisted RAG app for exploring AI news, emerging tools and research themes with summarized findings.
+
+**Stack:** RAG · Tavily · OpenAI · Streamlit
+
+[Explore source →](https://github.com/bhavesh-kalluru/AI_Trends_RAG)
+
+</td>
+</tr>
+</table>
+
+<div align="center"><a href="https://github.com/bhavesh-kalluru?tab=repositories"><img src="https://img.shields.io/badge/SEE_ALL_REPOSITORIES_%E2%86%92-121B32?style=for-the-badge&logo=github&logoColor=72E0FF" alt="See all repositories"></a></div>
 
 ---
 
-## 📚 Currently Learning
+## 🧰 My engineering toolkit
 
-- 🤖 Agentic AI Architectures
+<div align="center">
+<b>Languages · Frameworks · Platforms</b><br><br>
+<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,fastapi,docker,git,github,postgres,mysql,aws,gcp,linux&perline=12" alt="Technology icons">
+</div>
 
-- 🔌 Model Context Protocol (MCP)
-
-- 🛡️ AI Safety & Governance
-
-- 📊 LLM Evaluation Frameworks
-
-- 🧠 Latest LLM Research
-
-
----
-
-## 🎯 2026 Goals
-
-- ✅ Build 5 GenAI-powered tools end-to-end
-
-- 📝 Write 12 AI engineering blogs
-
-- 🎙️ Speak at AI or developer meetups
-
-- 🌱 Contribute to open-source AI projects
-
+| Specialty | Tools and approaches |
+|:--|:--|
+| **GenAI & agents** | LangChain · LangGraph · LlamaIndex · OpenAI · Hugging Face · Transformers |
+| **Retrieval & search** | RAG · FAISS · Vector embeddings · Hybrid retrieval · Elasticsearch · Re-ranking |
+| **Machine learning** | PyTorch · TensorFlow · scikit-learn · JAX · Evaluation · Fine-tuning |
+| **Serving & MLOps** | FastAPI · Streamlit · Docker · MLflow · ONNX · CI/CD |
+| **Data & analytics** | SQL · PostgreSQL · MySQL · SQLite · Snowflake · dbt · Pandas |
 
 ---
 
-## 🌈 Behind the Scenes
+## 📡 Live GitHub telemetry
 
-- ⚡ Favorite Quote:
+<div align="center">
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=bhavesh-kalluru&show_icons=true&hide_border=true&bg_color=0B1428&title_color=78E7FF&text_color=C5D5EF&icon_color=A68BFF" alt="GitHub statistics">
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bhavesh-kalluru&layout=compact&hide_border=true&bg_color=0B1428&title_color=78E7FF&text_color=C5D5EF&langs_count=7" alt="Most common repository languages">
+</div>
 
-> “Stay hungry. Stay foolish.” — Steve Jobs
+<div align="center"><img src="https://github-readme-activity-graph.vercel.app/graph?username=bhavesh-kalluru&bg_color=0B1428&color=9BBCE8&line=6AE4F6&point=B19BFF&area=true&hide_border=true" alt="GitHub contribution activity graph" width="100%"></div>
 
-
-- 🎮 Hobbies:
-  - New technology enthusiasm
-  - Trucking
-  - Volleyball lover
-
-
-- 📚 Currently Reading:
-
-*Gen AI with Python*
-
+<details><summary><b>🐍 Watch my contributions come alive</b></summary><br>
+<div align="center"><img src="https://raw.githubusercontent.com/bhavesh-kalluru/snk/output/github-contribution-grid-snake.svg" alt="Animated contribution snake" width="100%"></div>
+</details>
 
 ---
 
-## 📖 Word of the Day
+## 🧪 What I'm exploring now
+
+| 🧠 Agent engineering | 🧯 Trustworthy AI |
+|:--|:--|
+| Multi-agent orchestration, tool use, Model Context Protocol | Evaluations, factual grounding, safety, governance |
+
+| 📦 Production ML | 🌐 Portfolio engineering |
+|:--|:--|
+| Model optimization, monitoring and deployment | Full-stack builds across industry sectors |
+
+<details><summary><b>⚡ Beyond the code</b></summary><br>
+I'm into new technology, trucking and volleyball — and always interested in how complex systems work.
+</details>
+
+---
+
+## ✨ Daily signals
+
+<details><summary><b>📖 Today's word · 🧠 Today's tech term · 💬 Today's quote</b></summary><br>
+
+**Word of the day**
 
 <!-- DAILY:WORD -->
 **Ebullience** — Cheerful, energetic enthusiasm
 <!-- END:WORD -->
 
-
----
-
-## 🧠 Tech Term of the Day
+**Tech term of the day**
 
 <!-- DAILY:TECH -->
 **RAG** — Retrieval-Augmented Generation
 <!-- END:TECH -->
 
-
----
-
-## 🎯 Favorite Quote
+**Quote of the day**
 
 <!-- DAILY:QUOTE -->
 > “Whether you think you can or you can’t, you’re right.” — Henry Ford
 <!-- END:QUOTE -->
 
+</details>
 
 ---
 
-## 🤝 Let's Connect
+<div align="center">
 
+### Have a challenging AI problem worth solving?
 
-<p align="center">
+**Let's turn it into something reliable, useful and real.**
 
-<a href="https://www.linkedin.com/in/kbhavesh/" target="_blank">
+<a href="mailto:bhavesh.r.kalluru@gmail.com"><img src="https://img.shields.io/badge/LET'S_BUILD_SOMETHING-4D62D5?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Bhavesh"></a>
+<a href="https://www.linkedin.com/in/kbhavesh/"><img src="https://img.shields.io/badge/LET'S_CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"></a>
 
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+<br><br><sub>Designed around the work — not just the widgets. ⚡</sub>
 
-</a>
-
-
-<a href="https://github.com/bhavesh-kalluru" target="_blank">
-
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-
-</a>
-
-
-<a href="mailto:bhavesh.r.kalluru@gmail.com" target="_blank">
-
-<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-
-</a>
-
-</p>
-
-
-<p align="center">
-
-🚀 Open to collaboration, projects, or GenAI consultations.
-
-Let’s build something incredible together!
-
-</p>
+</div>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="Bhavesh Kalluru, Generative AI and Machine Learning Engineer, with a futuristic glowing neural network">
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#050A1A"/><stop offset=".6" stop-color="#0C1330"/><stop offset="1" stop-color="#101C34"/></linearGradient>
+<linearGradient id="gl" x2="1"><stop stop-color="#89F2FF"/><stop offset=".55" stop-color="#7495FF"/><stop offset="1" stop-color="#BEA5FF"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#504FCA" stop-opacity=".24"/><stop offset="1" stop-color="#504FCA" stop-opacity="0"/></radialGradient>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="32" height="32"><path d="M32 0H0V32" fill="none" stroke="#53658B" stroke-opacity=".17"/></pattern>
+<filter id="glow"><feGaussianBlur stdDeviation="3" result="a"/><feMerge><feMergeNode in="a"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<style>
+text{font-family:Inter,system-ui,-apple-system,'Segoe UI',sans-serif}
+.name{font-size:68px;font-weight:850;letter-spacing:-3px;fill:#F5F7FF}
+.small{font-size:12px;letter-spacing:2.8px;font-weight:700;fill:#8FE5FC}
+.orbit{animation:spin 32s linear infinite;transform-origin:957px 208px}
+.orbit2{animation:reverse 23s linear infinite;transform-origin:957px 208px}
+.flow{stroke-dasharray:7 12;animation:dash 12s linear infinite}
+.pulse{animation:pulse 3.5s ease-in-out infinite}
+@keyframes spin{to{transform:rotate(360deg)}}@keyframes reverse{to{transform:rotate(-360deg)}}
+@keyframes dash{to{stroke-dashoffset:-190}}@keyframes pulse{50%{opacity:.35}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style></defs>
+<rect width="1200" height="420" rx="22" fill="url(#bg)"/><rect width="1200" height="420" rx="22" fill="url(#grid)"/>
+<circle cx="957" cy="208" r="280" fill="url(#halo)"/>
+<path d="M0 376H1200M0 40H1200" stroke="#6589BA" stroke-opacity=".16"/>
+<g fill="none" stroke="#6CD4FF" stroke-opacity=".4" stroke-width="1">
+<path d="M710 62H790L839 111"/><path d="M1200 102H1127L1089 141"/><path d="M695 316H782L814 282"/></g>
+<circle cx="957" cy="208" r="146" fill="none" stroke="#5E86BD" stroke-opacity=".3"/>
+<circle cx="957" cy="208" r="121" fill="#102541" stroke="#5BD2FA" stroke-opacity=".35"/>
+<g class="orbit" fill="none" stroke="url(#gl)" stroke-width="2"><circle cx="957" cy="208" r="143" stroke-dasharray="92 39 12 305"/><circle cx="957" cy="65" r="5" fill="#76EDFF" stroke="none"/></g>
+<g class="orbit2" fill="none" stroke="#A38BFF" stroke-opacity=".7" stroke-width="1.5"><circle cx="957" cy="208" r="114" stroke-dasharray="40 65 8 140"/><circle cx="957" cy="322" r="4" fill="#BDA6FF" stroke="none"/></g>
+<g stroke="#5BC7F3" stroke-opacity=".48" stroke-width="1.6" fill="none" transform="translate(957 208)">
+<path d="M-61 -48L-21 -71L31 -50L68 -14L42 35L0 69L-52 40Z"/><path d="M-61 -48L-23 0L31 -50M-23 0L42 35L0 69M-23 0L-52 40M-23 0L68 -14M31 -50L42 35"/>
+</g>
+<g fill="#78E7FF" filter="url(#glow)" transform="translate(957 208)">
+<circle cx="-61" cy="-48" r="4"/><circle cx="-21" cy="-71" r="4"/><circle cx="31" cy="-50" r="5"/><circle cx="68" cy="-14" r="4"/><circle cx="42" cy="35" r="5"/><circle cy="69" r="4"/><circle cx="-52" cy="40" r="4"/>
+</g><circle class="pulse" cx="957" cy="208" r="13" fill="#BDB3FF" filter="url(#glow)"/><circle cx="957" cy="208" r="5" fill="white"/>
+<text x="957" y="313" text-anchor="middle" font-size="10" letter-spacing="3" fill="#ADC7E8">NEURAL SYSTEMS</text>
+<rect x="74" y="62" width="223" height="30" rx="15" fill="#15304C" stroke="#376687"/>
+<circle cx="92" cy="77" r="4" fill="#7BFFD4"/>
+<text x="108" y="81" class="small" style="font-size:10px;letter-spacing:2px">BK / ENGINEERING LAB</text>
+<text x="73" y="172" class="name">BHAVESH</text><text x="73" y="241" class="name" fill="url(#gl)" style="fill:url(#gl)">KALLURU<tspan fill="#6EF0FF">.</tspan></text>
+<path d="M77 261H611" stroke="url(#gl)" stroke-opacity=".8" stroke-width="2"/>
+<text x="78" y="296" font-size="19" letter-spacing="2.0" font-weight="600" fill="#C7D6F0">GENERATIVE AI / ML ENGINEERING</text>
+<g><rect x="76" y="321" width="113" height="33" rx="9" fill="#18334D" stroke="#326889"/><rect x="200" y="321" width="116" height="33" rx="9" fill="#263051" stroke="#5F568B"/><rect x="328" y="321" width="136" height="33" rx="9" fill="#123945" stroke="#2F7982"/></g>
+<g font-size="11" font-weight="700" text-anchor="middle"><text x="132" y="342" fill="#99E4FF">RAG SYSTEMS</text><text x="258" y="342" fill="#C3B3FF">AI AGENTS</text><text x="396" y="342" fill="#90F5DF">MLOPS / APIs</text></g>
+<text x="78" y="395" class="small" style="fill:#91A3C5">RETRIEVE · REASON · EVALUATE · SHIP</text><text x="1122" y="395" text-anchor="end" class="small" style="font-size:10px;fill:#91A3C5">01 / INFINITE BUILDS</text>
+<path class="flow" d="M0 366Q490 298 744 344T1200 351" stroke="#65D8F7" stroke-opacity=".42" fill="none" stroke-width="1.4"/>
+</svg>
