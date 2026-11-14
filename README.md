@@ -208,19 +208,19 @@ I'm into new technology, trucking and volleyball — and always interested in ho
 **Word of the day**
 
 <!-- DAILY:WORD -->
-**Ebullience** — Cheerful, energetic enthusiasm
+**Serendipity** — Finding something good without looking for it
 <!-- END:WORD -->
 
 **Tech term of the day**
 
 <!-- DAILY:TECH -->
-**RAG** — Retrieval-Augmented Generation
+**PEFT** — Parameter-Efficient Fine-Tuning
 <!-- END:TECH -->
 
 **Quote of the day**
 
 <!-- DAILY:QUOTE -->
-> “Make it work, make it right, make it fast.” — Kent Beck
+> “It always seems impossible until it’s done.” — Nelson Mandela
 <!-- END:QUOTE -->
 
 </details>
