@@ -22,7 +22,7 @@
 
 ### Hello, I'm Bhavesh 👋
 
-I'm a **Generative AI and Machine Learning Engineer** with **6+ years of experience** across ML applications, enterprise AI workflows and data-driven systems.
+I'm a **Generative AI and Machine Learning Engineer** focused on ML applications, enterprise AI workflows and data-driven systems.
 
 I focus on the space between a polished prototype and a useful production system: **retrieval quality, agent coordination, evaluation, APIs, observability and deployment**.
 
@@ -56,6 +56,9 @@ I focus on the space between a polished prototype and a useful production system
 ---
 
 ## ⚡ Featured engineering projects
+
+**Engineering Beyond Tutorials.** I organize my portfolio around practical problems, architecture choices, testable workflows, and documented trade-offs. Each project below links to its own repository. I distinguish prototypes and simulated data from production deployments.
+
 
 <table>
 <tr>
@@ -117,6 +120,28 @@ A search-assisted RAG app for exploring AI news, emerging tools and research the
 </table>
 
 <div align="center"><a href="https://github.com/bhavesh-kalluru?tab=repositories"><img src="https://img.shields.io/badge/SEE_ALL_REPOSITORIES_%E2%86%92-121B32?style=for-the-badge&logo=github&logoColor=72E0FF" alt="See all repositories"></a></div>
+
+---
+
+## 🧭 Engineering Decision Journal
+
+The code shows *what* I built; the decision journal explains *why* I built it that way.
+
+| Lens | What I document |
+|:--|:--|
+| **Problem & constraints** | Users, business workflow, assumptions, and what is simulated |
+| **Architecture** | System boundaries, API design, persistence, and deployment model |
+| **Trade-offs** | Alternatives considered, chosen approach, and limitations |
+| **Verification** | Reproducible tests, CI results, screenshots, and demo evidence |
+| **Next iteration** | Reliability, security, usability, and scaling improvements |
+
+**Featured case-study directions:** incident response and observability, retrieval quality and citations, and multi-modal claims triage. I will add measured outcomes and demos only when they are verified in the individual repositories.
+
+### Industry Engineering Lab
+
+I also explore full-stack systems across sectors such as municipal utilities, retail sustainability, and library operations. **Work-in-progress projects are not presented as published repositories.** Each completed project will have a separate public repository, a demo, an architecture overview, and an explicit verification checklist.
+
+**Project quality bar:** clear README · setup instructions · sample data · validation · tests · CI · Docker/deployment guide · limitations
 
 ---
 
