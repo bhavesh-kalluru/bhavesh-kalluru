@@ -143,7 +143,7 @@ I also explore full-stack systems across sectors such as municipal utilities, re
 
 **Project quality bar:** clear README · setup instructions · sample data · validation · tests · CI · Docker/deployment guide · limitations
 
-**Lab notebook · 2026-11-15:** YardFlow, a synthetic rail-yard slot planner (freight logistics), has been packaged locally with FastAPI, SQLite, browser UI, Docker, and automated tests (4 passing locally). Its separate public repository is **not yet created**, so there is deliberately no project link or CI badge. Design trade-off: simple interval checks and SQLite support a reproducible demo, not concurrent or safety-critical railway dispatch. Publication and CI verification remain pending.
+**Published lab project · 2026-11-15:** [YardFlow — Rail Yard Slot Planner](https://github.com/bhavesh-kalluru/rail-yard-slot-planner-2026-11-15) (freight logistics) — a synthetic full-stack scheduling demo using FastAPI, SQLite, a browser UI, Docker, and GitHub Actions CI configuration. **Local verification:** 4 tests passed (2 FastAPI deprecation warnings). **CI status:** workflow published; successful GitHub Actions run not yet verified. **Trade-offs:** SQLite and interval checks keep the demo simple but do not protect against concurrent booking races; not suitable for safety-critical railway dispatch. No live demo or screenshots published.
 
 ---
 
