@@ -241,19 +241,19 @@ I'm into new technology, trucking and volleyball — and always interested in ho
 **Word of the day**
 
 <!-- DAILY:WORD -->
-**Serendipity** — Finding something good without looking for it
+**Ebullience** — Cheerful, energetic enthusiasm
 <!-- END:WORD -->
 
 **Tech term of the day**
 
 <!-- DAILY:TECH -->
-**PEFT** — Parameter-Efficient Fine-Tuning
+**RAG** — Retrieval-Augmented Generation
 <!-- END:TECH -->
 
 **Quote of the day**
 
 <!-- DAILY:QUOTE -->
-> “It always seems impossible until it’s done.” — Nelson Mandela
+> “The secret of getting ahead is getting started.” — Mark Twain
 <!-- END:QUOTE -->
 
 </details>
